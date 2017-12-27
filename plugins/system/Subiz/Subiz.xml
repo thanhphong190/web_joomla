@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+
+        <name>Subiz</name>
+
+        <author>Subiz</author>
+
+        <creationDate>02 Sep 2015</creationDate>
+
+        <copyright>Copyright Subiz 2015 - Live Chat Solution - All rights reserved.</copyright>
+
+        <license>GNU/GPL v3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+
+        <authorEmail>support@subiz.com</authorEmail>
+
+        <authorUrl>http://www.subiz.com</authorUrl>
+
+        <version>1.0.0</version>
+
+        <description>PLG_SUBIZ_XML_DESCRIPTION</description>
+<!-- Runs on install/uninstall/update; New in 1.6 -->
+      
+	 <scriptfile>install.php</scriptfile>
+ 
+ 
+        <files>
+             <filename plugin="Subiz">Subiz.php</filename>
+			 <filename plugin="Subiz">Subiz.xml</filename>
+             <filename>index.html</filename>
+			 <filename>validate.js</filename>
+        </files>
+
+      <languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_subiz.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_subiz.sys.ini</language>
+	</languages>
+  
+  <config>
+		<fields name="params">
+ 
+			<fieldset name="basic">
+				<field name="License_ID" type="text"
+					default=""
+					description="License ID"
+					label="License ID"
+					
+				/>
+ <field type="spacer" name="llink" label="PLG_SUBIZ_XML_LICENSELINK" />
+ 
+			<field name="idcode" hint="*Fill this place if you don’t have license ID" type="textarea" default="" label="Widget code" description="PLG_SUBIZ_XML_LICENSE_DESCRIPTION" rows="5" cols="55" />	
+		 <field type="spacer" name="Clink" label="PLG_SUBIZ_XML_CODELINK" />		
+			</fieldset>
+           <fieldset name="PLG_SUBIZ_XML_DASHBOARD">
+		    <field type="spacer" name="DB" label="PLG_SUBIZ_XML_DASHBOARD_CODE" />
+			</fieldset>
+		</fields>
+	</config>
+	
+</extension>
