@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content" method="upgrade">
+    <name>VIAN-GOOGLE+ COMMENT</name>
+    <version>3.0</version>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <author>VIAN</author>
+    <authorEmail>design@vian.vn</authorEmail>
+    <authorUrl>http://vian.vn/</authorUrl>
+    <copyright>Copyright 2013 VIAN. All rights reserved.</copyright>
+    <creationDate>2013-04-30</creationDate>
+    <description>Plugein bình luận bằng google plus for joomla 3</description>
+    <files>
+        <filename plugin="viangpluscomments">viangpluscomments.php</filename>
+        <filename plugin="viangpluscomments">index.html</filename>       
+    </files>    
+    <config>
+        <fields name="params">
+            <fieldset name="basic">                
+                <field name="width" type="text" default="650" label="Chiều rộng khung" description="Chiều rộng của khung comment" />
+                <field name="counter" type="list" default="1" label="Hiển thị bộ đếm" description="Hiển thị bộ đếm số comment">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="link" type="list" default="1" label="Backlink người tạo" description="Bật hoặc tắt bách linh cho người tạo ra plugin">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field name="exclusion_spacer" type="spacer" label="Lựa chọn hoặc có thể bỏ trống" />
+                <field name="exclude_articles_ids" type="textarea" default="" rows="2" cols="50" label="Không sử dụng trên các bài viết có ID" description="ID bài viết của mỗi một bài đều khác nhau và duy nhất, diền các id vào obeen cạnh nếu bạn muốn bài đó ko sử dụng comment" />
+                <field name="exclude_articles_categories" type="textarea" default="" rows="2" cols="50" label="Không sử dụng trên các catalogy" description="ID bài viết của mỗi một catalogy khác nhau và duy nhất, diền các id vào ô bên cạnh nếu bạn muốn bài đó sử dụng comment" />
+            </fieldset>           
+        </fields>  
+          
+    </config>
+</extension>

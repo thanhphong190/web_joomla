@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 27, 2017 at 09:36 AM
+-- Generation Time: Jan 01, 2018 at 01:23 AM
 -- Server version: 10.1.26-MariaDB
 -- PHP Version: 7.1.9
 
@@ -1944,68 +1944,69 @@ CREATE TABLE `rqewn_assets` (
 --
 
 INSERT INTO `rqewn_assets` (`id`, `parent_id`, `lft`, `rgt`, `level`, `name`, `title`, `rules`) VALUES
-(1, 0, 0, 107, 0, 'root.1', 'Root Asset', '{\"core.login.site\":{\"6\":1,\"2\":1},\"core.login.admin\":{\"6\":1},\"core.login.offline\":{\"6\":1},\"core.admin\":{\"8\":1},\"core.manage\":{\"7\":1},\"core.create\":{\"6\":1,\"3\":1},\"core.delete\":{\"6\":1},\"core.edit\":{\"6\":1,\"4\":1},\"core.edit.state\":{\"6\":1,\"5\":1},\"core.edit.own\":{\"6\":1,\"3\":1}}'),
+(1, 0, 0, 109, 0, 'root.1', 'Root Asset', '{\"core.login.site\":{\"6\":1,\"2\":1},\"core.login.admin\":{\"6\":1},\"core.login.offline\":{\"6\":1},\"core.admin\":{\"8\":1},\"core.manage\":{\"7\":1},\"core.create\":{\"6\":1,\"3\":1},\"core.delete\":{\"6\":1},\"core.edit\":{\"6\":1,\"4\":1},\"core.edit.state\":{\"6\":1,\"5\":1},\"core.edit.own\":{\"6\":1,\"3\":1}}'),
 (2, 1, 1, 2, 1, 'com_admin', 'com_admin', '{}'),
 (3, 1, 3, 6, 1, 'com_banners', 'com_banners', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
 (4, 1, 7, 8, 1, 'com_cache', 'com_cache', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"7\":1}}'),
 (5, 1, 9, 10, 1, 'com_checkin', 'com_checkin', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"7\":1}}'),
 (6, 1, 11, 12, 1, 'com_config', 'com_config', '{}'),
 (7, 1, 13, 16, 1, 'com_contact', 'com_contact', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
-(8, 1, 17, 22, 1, 'com_content', 'com_content', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1},\"core.create\":{\"3\":1},\"core.edit\":{\"4\":1},\"core.edit.state\":{\"5\":1}}'),
-(9, 1, 23, 24, 1, 'com_cpanel', 'com_cpanel', '{}'),
-(10, 1, 25, 26, 1, 'com_installer', 'com_installer', '{\"core.manage\":{\"7\":0},\"core.delete\":{\"7\":0},\"core.edit.state\":{\"7\":0}}'),
-(11, 1, 27, 28, 1, 'com_languages', 'com_languages', '{\"core.admin\":{\"7\":1}}'),
-(12, 1, 29, 30, 1, 'com_login', 'com_login', '{}'),
-(13, 1, 31, 32, 1, 'com_mailto', 'com_mailto', '{}'),
-(14, 1, 33, 34, 1, 'com_massmail', 'com_massmail', '{}'),
-(15, 1, 35, 36, 1, 'com_media', 'com_media', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1},\"core.create\":{\"3\":1},\"core.delete\":{\"5\":1}}'),
-(16, 1, 37, 40, 1, 'com_menus', 'com_menus', '{\"core.admin\":{\"7\":1}}'),
-(17, 1, 41, 42, 1, 'com_messages', 'com_messages', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"7\":1}}'),
-(18, 1, 43, 76, 1, 'com_modules', 'com_modules', '{\"core.admin\":{\"7\":1}}'),
-(19, 1, 77, 80, 1, 'com_newsfeeds', 'com_newsfeeds', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
-(20, 1, 81, 82, 1, 'com_plugins', 'com_plugins', '{\"core.admin\":{\"7\":1}}'),
-(21, 1, 83, 84, 1, 'com_redirect', 'com_redirect', '{\"core.admin\":{\"7\":1}}'),
-(22, 1, 85, 86, 1, 'com_search', 'com_search', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
-(23, 1, 87, 88, 1, 'com_templates', 'com_templates', '{\"core.admin\":{\"7\":1}}'),
-(24, 1, 89, 92, 1, 'com_users', 'com_users', '{\"core.admin\":{\"7\":1}}'),
-(26, 1, 93, 94, 1, 'com_wrapper', 'com_wrapper', '{}'),
-(27, 8, 18, 21, 2, 'com_content.category.2', 'Uncategorised', '{}'),
+(8, 1, 17, 24, 1, 'com_content', 'com_content', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1},\"core.create\":{\"3\":1},\"core.edit\":{\"4\":1},\"core.edit.state\":{\"5\":1}}'),
+(9, 1, 25, 26, 1, 'com_cpanel', 'com_cpanel', '{}'),
+(10, 1, 27, 28, 1, 'com_installer', 'com_installer', '{\"core.manage\":{\"7\":0},\"core.delete\":{\"7\":0},\"core.edit.state\":{\"7\":0}}'),
+(11, 1, 29, 30, 1, 'com_languages', 'com_languages', '{\"core.admin\":{\"7\":1}}'),
+(12, 1, 31, 32, 1, 'com_login', 'com_login', '{}'),
+(13, 1, 33, 34, 1, 'com_mailto', 'com_mailto', '{}'),
+(14, 1, 35, 36, 1, 'com_massmail', 'com_massmail', '{}'),
+(15, 1, 37, 38, 1, 'com_media', 'com_media', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1},\"core.create\":{\"3\":1},\"core.delete\":{\"5\":1}}'),
+(16, 1, 39, 42, 1, 'com_menus', 'com_menus', '{\"core.admin\":{\"7\":1}}'),
+(17, 1, 43, 44, 1, 'com_messages', 'com_messages', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"7\":1}}'),
+(18, 1, 45, 78, 1, 'com_modules', 'com_modules', '{\"core.admin\":{\"7\":1}}'),
+(19, 1, 79, 82, 1, 'com_newsfeeds', 'com_newsfeeds', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
+(20, 1, 83, 84, 1, 'com_plugins', 'com_plugins', '{\"core.admin\":{\"7\":1}}'),
+(21, 1, 85, 86, 1, 'com_redirect', 'com_redirect', '{\"core.admin\":{\"7\":1}}'),
+(22, 1, 87, 88, 1, 'com_search', 'com_search', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
+(23, 1, 89, 90, 1, 'com_templates', 'com_templates', '{\"core.admin\":{\"7\":1}}'),
+(24, 1, 91, 94, 1, 'com_users', 'com_users', '{\"core.admin\":{\"7\":1}}'),
+(26, 1, 95, 96, 1, 'com_wrapper', 'com_wrapper', '{}'),
+(27, 8, 18, 23, 2, 'com_content.category.2', 'Uncategorised', '{}'),
 (28, 3, 4, 5, 2, 'com_banners.category.3', 'Uncategorised', '{}'),
 (29, 7, 14, 15, 2, 'com_contact.category.4', 'Uncategorised', '{}'),
-(30, 19, 78, 79, 2, 'com_newsfeeds.category.5', 'Uncategorised', '{}'),
-(32, 24, 90, 91, 2, 'com_users.category.7', 'Uncategorised', '{}'),
-(33, 1, 95, 96, 1, 'com_finder', 'com_finder', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
-(34, 1, 97, 98, 1, 'com_joomlaupdate', 'com_joomlaupdate', '{}'),
-(35, 1, 99, 100, 1, 'com_tags', 'com_tags', '{}'),
-(36, 1, 101, 102, 1, 'com_contenthistory', 'com_contenthistory', '{}'),
-(37, 1, 103, 104, 1, 'com_ajax', 'com_ajax', '{}'),
-(38, 1, 105, 106, 1, 'com_postinstall', 'com_postinstall', '{}'),
-(39, 18, 44, 45, 2, 'com_modules.module.1', 'Main Menu', '{}'),
-(40, 18, 46, 47, 2, 'com_modules.module.2', 'Login', '{}'),
-(41, 18, 48, 49, 2, 'com_modules.module.3', 'Popular Articles', '{}'),
-(42, 18, 50, 51, 2, 'com_modules.module.4', 'Recently Added Articles', '{}'),
-(43, 18, 52, 53, 2, 'com_modules.module.8', 'Toolbar', '{}'),
-(44, 18, 54, 55, 2, 'com_modules.module.9', 'Quick Icons', '{}'),
-(45, 18, 56, 57, 2, 'com_modules.module.10', 'Logged-in Users', '{}'),
-(46, 18, 58, 59, 2, 'com_modules.module.12', 'Admin Menu', '{}'),
-(47, 18, 60, 61, 2, 'com_modules.module.13', 'Admin Submenu', '{}'),
-(48, 18, 62, 63, 2, 'com_modules.module.14', 'User Status', '{}'),
-(49, 18, 64, 65, 2, 'com_modules.module.15', 'Title', '{}'),
-(50, 18, 66, 67, 2, 'com_modules.module.16', 'Login Form', '{}'),
-(51, 18, 68, 69, 2, 'com_modules.module.17', 'Breadcrumbs', '{}'),
-(52, 18, 70, 71, 2, 'com_modules.module.79', 'Multilanguage status', '{}'),
-(53, 18, 72, 73, 2, 'com_modules.module.86', 'Joomla Version', '{}'),
-(54, 16, 38, 39, 2, 'com_menus.menu.1', 'Main Menu', '{}'),
-(55, 18, 74, 75, 2, 'com_modules.module.87', 'Sample Data', '{}'),
-(56, 1, 121, 122, 1, 'com_virtuemart_allinone', 'VirtueMart_allinone', '{}'),
-(58, 18, 76, 77, 2, 'com_modules.module.88', 'VM - Currencies Selector', '{}'),
-(59, 18, 78, 79, 2, 'com_modules.module.89', 'VM - Featured products', '{}'),
-(60, 18, 80, 81, 2, 'com_modules.module.90', 'VM - Search in Shop', '{}'),
-(61, 18, 82, 83, 2, 'com_modules.module.91', 'VM - Manufacturer', '{}'),
-(62, 18, 84, 85, 2, 'com_modules.module.92', 'VM - Shopping cart', '{}'),
-(63, 18, 86, 87, 2, 'com_modules.module.93', 'VM - Category', '{}'),
-(64, 1, 123, 124, 1, 'com_tcpdf', 'tcpdf', '{}'),
-(65, 27, 19, 20, 3, 'com_content.article.1', 'Sample Company', '{}');
+(30, 19, 80, 81, 2, 'com_newsfeeds.category.5', 'Uncategorised', '{}'),
+(32, 24, 92, 93, 2, 'com_users.category.7', 'Uncategorised', '{}'),
+(33, 1, 97, 98, 1, 'com_finder', 'com_finder', '{\"core.admin\":{\"7\":1},\"core.manage\":{\"6\":1}}'),
+(34, 1, 99, 100, 1, 'com_joomlaupdate', 'com_joomlaupdate', '{}'),
+(35, 1, 101, 102, 1, 'com_tags', 'com_tags', '{}'),
+(36, 1, 103, 104, 1, 'com_contenthistory', 'com_contenthistory', '{}'),
+(37, 1, 105, 106, 1, 'com_ajax', 'com_ajax', '{}'),
+(38, 1, 107, 108, 1, 'com_postinstall', 'com_postinstall', '{}'),
+(39, 18, 46, 47, 2, 'com_modules.module.1', 'Main Menu', '{}'),
+(40, 18, 48, 49, 2, 'com_modules.module.2', 'Login', '{}'),
+(41, 18, 50, 51, 2, 'com_modules.module.3', 'Popular Articles', '{}'),
+(42, 18, 52, 53, 2, 'com_modules.module.4', 'Recently Added Articles', '{}'),
+(43, 18, 54, 55, 2, 'com_modules.module.8', 'Toolbar', '{}'),
+(44, 18, 56, 57, 2, 'com_modules.module.9', 'Quick Icons', '{}'),
+(45, 18, 58, 59, 2, 'com_modules.module.10', 'Logged-in Users', '{}'),
+(46, 18, 60, 61, 2, 'com_modules.module.12', 'Admin Menu', '{}'),
+(47, 18, 62, 63, 2, 'com_modules.module.13', 'Admin Submenu', '{}'),
+(48, 18, 64, 65, 2, 'com_modules.module.14', 'User Status', '{}'),
+(49, 18, 66, 67, 2, 'com_modules.module.15', 'Title', '{}'),
+(50, 18, 68, 69, 2, 'com_modules.module.16', 'Login Form', '{}'),
+(51, 18, 70, 71, 2, 'com_modules.module.17', 'Breadcrumbs', '{}'),
+(52, 18, 72, 73, 2, 'com_modules.module.79', 'Multilanguage status', '{}'),
+(53, 18, 74, 75, 2, 'com_modules.module.86', 'Joomla Version', '{}'),
+(54, 16, 40, 41, 2, 'com_menus.menu.1', 'Main Menu', '{}'),
+(55, 18, 76, 77, 2, 'com_modules.module.87', 'Sample Data', '{}'),
+(56, 1, 123, 124, 1, 'com_virtuemart_allinone', 'VirtueMart_allinone', '{}'),
+(58, 18, 78, 79, 2, 'com_modules.module.88', 'VM - Currencies Selector', '{}'),
+(59, 18, 80, 81, 2, 'com_modules.module.89', 'VM - Featured products', '{}'),
+(60, 18, 82, 83, 2, 'com_modules.module.90', 'VM - Search in Shop', '{}'),
+(61, 18, 84, 85, 2, 'com_modules.module.91', 'VM - Manufacturer', '{}'),
+(62, 18, 86, 87, 2, 'com_modules.module.92', 'VM - Shopping cart', '{}'),
+(63, 18, 88, 89, 2, 'com_modules.module.93', 'VM - Category', '{}'),
+(64, 1, 125, 126, 1, 'com_tcpdf', 'tcpdf', '{}'),
+(65, 27, 19, 20, 3, 'com_content.article.1', 'Sample Company', '{}'),
+(66, 27, 21, 22, 3, 'com_content.article.2', 'Information', '{}');
 
 -- --------------------------------------------------------
 
@@ -2242,7 +2243,8 @@ CREATE TABLE `rqewn_content` (
 --
 
 INSERT INTO `rqewn_content` (`id`, `asset_id`, `title`, `alias`, `introtext`, `fulltext`, `state`, `catid`, `created`, `created_by`, `created_by_alias`, `modified`, `modified_by`, `checked_out`, `checked_out_time`, `publish_up`, `publish_down`, `images`, `urls`, `attribs`, `version`, `ordering`, `metakey`, `metadesc`, `access`, `hits`, `metadata`, `featured`, `language`, `xreference`) VALUES
-(1, 65, 'Sample Company', 'sample-company', '<div class=\"vendor-description\">Mr Doe John<br />PO Box 123<br />98101 Seattle<br />Germany<br />Freistaat Sachsen<br />555-555-555<br />DE279592082</div>\r\n<p>VAT-ID: XYZ-DEMO<br />Reg.Nr: DEMONUMBER</p>', '', 1, 2, '2017-12-26 07:08:57', 578, '', '2017-12-26 07:14:21', 578, 0, '0000-00-00 00:00:00', '2017-12-26 07:08:57', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 3, 0, '', '', 1, 0, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', '');
+(1, 65, 'Sample Company', 'sample-company', '<div class=\"vendor-description\">Mr Doe John<br />PO Box 123<br />98101 Seattle<br />Germany<br />Freistaat Sachsen<br />555-555-555<br />DE279592082</div>\r\n<p>VAT-ID: XYZ-DEMO<br />Reg.Nr: DEMONUMBER</p>', '', 1, 2, '2017-12-26 07:08:57', 578, '', '2017-12-26 07:14:21', 578, 0, '0000-00-00 00:00:00', '2017-12-26 07:08:57', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 3, 1, '', '', 1, 1, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 0, '*', ''),
+(2, 66, 'Information', 'information', '<div class=\"vendor-description\">Sample Company<br />Mr Doe John<br />PO Box 123<br />98101 Seattle<br />Germany<br />Freistaat Sachsen<br />555-555-555<br />DE279592082</div>\r\n<p>VAT-ID: XYZ-DEMO<br />Reg.Nr: DEMONUMBER</p>', '', 1, 2, '2017-12-31 13:55:56', 578, '', '2017-12-31 13:55:56', 0, 578, '2017-12-31 14:03:06', '2017-12-31 13:55:56', '0000-00-00 00:00:00', '{\"image_intro\":\"\",\"float_intro\":\"\",\"image_intro_alt\":\"\",\"image_intro_caption\":\"\",\"image_fulltext\":\"\",\"float_fulltext\":\"\",\"image_fulltext_alt\":\"\",\"image_fulltext_caption\":\"\"}', '{\"urla\":false,\"urlatext\":\"\",\"targeta\":\"\",\"urlb\":false,\"urlbtext\":\"\",\"targetb\":\"\",\"urlc\":false,\"urlctext\":\"\",\"targetc\":\"\"}', '{\"article_layout\":\"\",\"show_title\":\"\",\"link_titles\":\"\",\"show_tags\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_vote\":\"\",\"show_hits\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"alternative_readmore\":\"\",\"article_page_title\":\"\",\"show_publishing_options\":\"\",\"show_article_options\":\"\",\"show_urls_images_backend\":\"\",\"show_urls_images_frontend\":\"\"}', 1, 0, '', '', 1, 6, '{\"robots\":\"\",\"author\":\"\",\"rights\":\"\",\"xreference\":\"\"}', 1, 'en-GB', '');
 
 -- --------------------------------------------------------
 
@@ -2269,6 +2271,13 @@ CREATE TABLE `rqewn_content_frontpage` (
   `content_id` int(11) NOT NULL DEFAULT '0',
   `ordering` int(11) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `rqewn_content_frontpage`
+--
+
+INSERT INTO `rqewn_content_frontpage` (`content_id`, `ordering`) VALUES
+(2, 1);
 
 -- --------------------------------------------------------
 
@@ -2395,7 +2404,7 @@ INSERT INTO `rqewn_extensions` (`extension_id`, `package_id`, `name`, `type`, `e
 (33, 0, 'com_fields', 'component', 'com_fields', '', 1, 1, 1, 0, '{\"name\":\"com_fields\",\"type\":\"component\",\"creationDate\":\"March 2016\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.7.0\",\"description\":\"COM_FIELDS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"fields\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (34, 0, 'com_associations', 'component', 'com_associations', '', 1, 1, 1, 0, '{\"name\":\"com_associations\",\"type\":\"component\",\"creationDate\":\"Januar 2017\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.7.0\",\"description\":\"COM_ASSOCIATIONS_XML_DESCRIPTION\",\"group\":\"\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (102, 0, 'LIB_PHPUTF8', 'library', 'phputf8', '', 0, 1, 1, 1, '{\"name\":\"LIB_PHPUTF8\",\"type\":\"library\",\"creationDate\":\"2006\",\"author\":\"Harry Fuecks\",\"copyright\":\"Copyright various authors\",\"authorEmail\":\"hfuecks@gmail.com\",\"authorUrl\":\"http:\\/\\/sourceforge.net\\/projects\\/phputf8\",\"version\":\"0.5\",\"description\":\"LIB_PHPUTF8_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"phputf8\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(103, 0, 'LIB_JOOMLA', 'library', 'joomla', '', 0, 1, 1, 1, '{\"name\":\"LIB_JOOMLA\",\"type\":\"library\",\"creationDate\":\"2008\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"https:\\/\\/www.joomla.org\",\"version\":\"13.1\",\"description\":\"LIB_JOOMLA_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"joomla\"}', '{\"mediaversion\":\"ef4a5588fe7e06ed1d17cbb3b390b633\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(103, 0, 'LIB_JOOMLA', 'library', 'joomla', '', 0, 1, 1, 1, '{\"name\":\"LIB_JOOMLA\",\"type\":\"library\",\"creationDate\":\"2008\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"https:\\/\\/www.joomla.org\",\"version\":\"13.1\",\"description\":\"LIB_JOOMLA_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"joomla\"}', '{\"mediaversion\":\"c333db650fc86b58a5a41f6bed82760a\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (104, 0, 'LIB_IDNA', 'library', 'idna_convert', '', 0, 1, 1, 1, '{\"name\":\"LIB_IDNA\",\"type\":\"library\",\"creationDate\":\"2004\",\"author\":\"phlyLabs\",\"copyright\":\"2004-2011 phlyLabs Berlin, http:\\/\\/phlylabs.de\",\"authorEmail\":\"phlymail@phlylabs.de\",\"authorUrl\":\"http:\\/\\/phlylabs.de\",\"version\":\"0.8.0\",\"description\":\"LIB_IDNA_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"idna_convert\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (105, 0, 'FOF', 'library', 'fof', '', 0, 1, 1, 1, '{\"name\":\"FOF\",\"type\":\"library\",\"creationDate\":\"2015-04-22 13:15:32\",\"author\":\"Nicholas K. Dionysopoulos \\/ Akeeba Ltd\",\"copyright\":\"(C)2011-2015 Nicholas K. Dionysopoulos\",\"authorEmail\":\"nicholas@akeebabackup.com\",\"authorUrl\":\"https:\\/\\/www.akeebabackup.com\",\"version\":\"2.4.3\",\"description\":\"LIB_FOF_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"fof\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (106, 0, 'LIB_PHPASS', 'library', 'phpass', '', 0, 1, 1, 1, '{\"name\":\"LIB_PHPASS\",\"type\":\"library\",\"creationDate\":\"2004-2006\",\"author\":\"Solar Designer\",\"copyright\":\"\",\"authorEmail\":\"solar@openwall.com\",\"authorUrl\":\"http:\\/\\/www.openwall.com\\/phpass\\/\",\"version\":\"0.3\",\"description\":\"LIB_PHPASS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"phpass\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
@@ -2480,7 +2489,7 @@ INSERT INTO `rqewn_extensions` (`extension_id`, `package_id`, `name`, `type`, `e
 (438, 0, 'plg_quickicon_extensionupdate', 'plugin', 'extensionupdate', 'quickicon', 0, 1, 1, 1, '{\"name\":\"plg_quickicon_extensionupdate\",\"type\":\"plugin\",\"creationDate\":\"August 2011\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_QUICKICON_EXTENSIONUPDATE_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"extensionupdate\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (439, 0, 'plg_captcha_recaptcha', 'plugin', 'recaptcha', 'captcha', 0, 0, 1, 0, '{\"name\":\"plg_captcha_recaptcha\",\"type\":\"plugin\",\"creationDate\":\"December 2011\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.4.0\",\"description\":\"PLG_CAPTCHA_RECAPTCHA_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"recaptcha\"}', '{\"public_key\":\"\",\"private_key\":\"\",\"theme\":\"clean\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (440, 0, 'plg_system_highlight', 'plugin', 'highlight', 'system', 0, 1, 1, 0, '{\"name\":\"plg_system_highlight\",\"type\":\"plugin\",\"creationDate\":\"August 2011\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_SYSTEM_HIGHLIGHT_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"highlight\"}', '', '', '', 0, '0000-00-00 00:00:00', 7, 0),
-(441, 0, 'plg_content_finder', 'plugin', 'finder', 'content', 0, 0, 1, 0, '{\"name\":\"plg_content_finder\",\"type\":\"plugin\",\"creationDate\":\"December 2011\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_CONTENT_FINDER_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"finder\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(441, 0, 'plg_content_finder', 'plugin', 'finder', 'content', 0, 1, 1, 0, '{\"name\":\"plg_content_finder\",\"type\":\"plugin\",\"creationDate\":\"December 2011\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_CONTENT_FINDER_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"finder\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (442, 0, 'plg_finder_categories', 'plugin', 'categories', 'finder', 0, 1, 1, 0, '{\"name\":\"plg_finder_categories\",\"type\":\"plugin\",\"creationDate\":\"August 2011\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_FINDER_CATEGORIES_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"categories\"}', '', '', '', 0, '0000-00-00 00:00:00', 1, 0),
 (443, 0, 'plg_finder_contacts', 'plugin', 'contacts', 'finder', 0, 1, 1, 0, '{\"name\":\"plg_finder_contacts\",\"type\":\"plugin\",\"creationDate\":\"August 2011\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_FINDER_CONTACTS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"contacts\"}', '', '', '', 0, '0000-00-00 00:00:00', 2, 0),
 (444, 0, 'plg_finder_content', 'plugin', 'content', 'finder', 0, 1, 1, 0, '{\"name\":\"plg_finder_content\",\"type\":\"plugin\",\"creationDate\":\"August 2011\",\"author\":\"Joomla! Project\",\"copyright\":\"(C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_FINDER_CONTENT_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"content\"}', '', '', '', 0, '0000-00-00 00:00:00', 3, 0),
@@ -2490,7 +2499,7 @@ INSERT INTO `rqewn_extensions` (`extension_id`, `package_id`, `name`, `type`, `e
 (449, 0, 'plg_authentication_cookie', 'plugin', 'cookie', 'authentication', 0, 1, 1, 0, '{\"name\":\"plg_authentication_cookie\",\"type\":\"plugin\",\"creationDate\":\"July 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_AUTH_COOKIE_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"cookie\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (450, 0, 'plg_twofactorauth_yubikey', 'plugin', 'yubikey', 'twofactorauth', 0, 0, 1, 0, '{\"name\":\"plg_twofactorauth_yubikey\",\"type\":\"plugin\",\"creationDate\":\"September 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.2.0\",\"description\":\"PLG_TWOFACTORAUTH_YUBIKEY_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"yubikey\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (451, 0, 'plg_search_tags', 'plugin', 'tags', 'search', 0, 1, 1, 0, '{\"name\":\"plg_search_tags\",\"type\":\"plugin\",\"creationDate\":\"March 2014\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.0.0\",\"description\":\"PLG_SEARCH_TAGS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"tags\"}', '{\"search_limit\":\"50\",\"show_tagged_items\":\"1\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(452, 0, 'plg_system_updatenotification', 'plugin', 'updatenotification', 'system', 0, 1, 1, 0, '{\"name\":\"plg_system_updatenotification\",\"type\":\"plugin\",\"creationDate\":\"May 2015\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_UPDATENOTIFICATION_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"updatenotification\"}', '{\"lastrun\":1514361126}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(452, 0, 'plg_system_updatenotification', 'plugin', 'updatenotification', 'system', 0, 1, 1, 0, '{\"name\":\"plg_system_updatenotification\",\"type\":\"plugin\",\"creationDate\":\"May 2015\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_UPDATENOTIFICATION_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"updatenotification\"}', '{\"lastrun\":1514727558}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (453, 0, 'plg_editors-xtd_module', 'plugin', 'module', 'editors-xtd', 0, 1, 1, 0, '{\"name\":\"plg_editors-xtd_module\",\"type\":\"plugin\",\"creationDate\":\"October 2015\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_MODULE_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"module\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (454, 0, 'plg_system_stats', 'plugin', 'stats', 'system', 0, 1, 1, 0, '{\"name\":\"plg_system_stats\",\"type\":\"plugin\",\"creationDate\":\"November 2013\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.5.0\",\"description\":\"PLG_SYSTEM_STATS_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"stats\"}', '{\"mode\":3,\"lastrun\":1513089127,\"unique_id\":\"50ec90fe54b7411d3dbc6946f252cdff746bd8a7\",\"interval\":12}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (455, 0, 'plg_installer_packageinstaller', 'plugin', 'packageinstaller', 'installer', 0, 1, 1, 1, '{\"name\":\"plg_installer_packageinstaller\",\"type\":\"plugin\",\"creationDate\":\"May 2016\",\"author\":\"Joomla! Project\",\"copyright\":\"Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.\",\"authorEmail\":\"admin@joomla.org\",\"authorUrl\":\"www.joomla.org\",\"version\":\"3.6.0\",\"description\":\"PLG_INSTALLER_PACKAGEINSTALLER_PLUGIN_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"packageinstaller\"}', '', '', '', 0, '0000-00-00 00:00:00', 1, 0),
@@ -2537,7 +2546,7 @@ INSERT INTO `rqewn_extensions` (`extension_id`, `package_id`, `name`, `type`, `e
 (10007, 10000, 'VM Payment - Heidelpay', 'plugin', 'heidelpay', 'vmpayment', 0, 0, 1, 0, '{\"name\":\"Heidelpay\",\"type\":\"plugin\",\"creationDate\":\"12-Sep-2012\",\"author\":\"Heidelberger Payment GmbH\",\"copyright\":\"Copyright Heidelberger Payment GmbH\",\"authorEmail\":\"info@heidelpay.de\",\"authorUrl\":\"http:\\/\\/www.heidelpay.de\",\"version\":\"16.11.07\",\"description\":\"\\n        <h2>Virtuemart Plugin von:<\\/h2><p><a href=\\\"http:\\/\\/www.Heidelpay.de\\\" target=\\\"_blank\\\"><img src=\\\"http:\\/\\/www.heidelpay.de\\/gfx\\/logo.gif\\\" style=\\\"margin-right:20px;\\\"\\/><\\/a><\\/p> \",\"group\":\"\",\"filename\":\"heidelpay\"}', '', '', '', 0, '0000-00-00 00:00:00', 8, 0),
 (10008, 10000, 'VM Payment - Paybox', 'plugin', 'paybox', 'vmpayment', 0, 0, 1, 0, '{\"name\":\"VM Payment - Paybox\",\"type\":\"plugin\",\"creationDate\":\"December 06 2017\",\"author\":\"The VirtueMart Development Team\",\"copyright\":\"Copyright (C) 2004 - 2017 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"3.2.8\",\"description\":\"<a href=\\\"http:\\/\\/paybox.com\\\" target=\\\"_blank\\\">Paybox<\\/a> \\n    \",\"group\":\"\",\"filename\":\"paybox\"}', '', '', '', 0, '0000-00-00 00:00:00', 7, 0),
 (10009, 10000, 'VM Payment - 2Checkout', 'plugin', 'tco', 'vmpayment', 0, 0, 1, 0, '{\"name\":\"2Checkout\",\"type\":\"plugin\",\"creationDate\":\"October 2015\",\"author\":\"Craig Christenson\",\"copyright\":\"Copyright (C) 2004-2015 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"http:\\/\\/www.2checkout.com\",\"version\":\"3.2.8\",\"description\":\"<a href=\\\"https:\\/\\/www.2checkout.com\\/referral?r=virtuemart\\\" target=\\\"_blank\\\">2Checkout<\\/a> is a popular payment provider and available in many countries. \\n    \",\"group\":\"\",\"filename\":\"tco\"}', '', '', '', 0, '0000-00-00 00:00:00', 1, 0),
-(10010, 10000, 'VM Payment - Pay with Amazon', 'plugin', 'amazon', 'vmpayment', 0, 0, 1, 0, '{\"name\":\"AMAZON\",\"type\":\"plugin\",\"creationDate\":\"December 06 2017\",\"author\":\"The VirtueMart Development Team\",\"copyright\":\"Copyright (C) 2004 - 2017 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"3.2.8\",\"description\":\"AMAZON PAY plugin\",\"group\":\"\",\"filename\":\"amazon\"}', '', '', '', 0, '0000-00-00 00:00:00', 2, 0),
+(10010, 10000, 'VM Payment - Pay with Amazon', 'plugin', 'amazon', 'vmpayment', 0, 1, 1, 0, '{\"name\":\"AMAZON\",\"type\":\"plugin\",\"creationDate\":\"December 06 2017\",\"author\":\"The VirtueMart Development Team\",\"copyright\":\"Copyright (C) 2004 - 2017 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"3.2.8\",\"description\":\"AMAZON PAY plugin\",\"group\":\"\",\"filename\":\"amazon\"}', '', '', '', 0, '0000-00-00 00:00:00', 2, 0),
 (10011, 10000, 'System - Pay with Amazon', 'plugin', 'amazon', 'system', 0, 0, 1, 0, '{\"name\":\"AMAZON\",\"type\":\"plugin\",\"creationDate\":\"December 06 2017\",\"author\":\"The VirtueMart Development Team\",\"copyright\":\"Copyright (C) 2004 - 2017 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"3.2.8\",\"description\":\"AMAZON payment SYSTEM plugin\",\"group\":\"\",\"filename\":\"amazon\"}', '', '', '', 0, '0000-00-00 00:00:00', 2, 0),
 (10012, 10000, 'VM Payment - Realex HPP & API', 'plugin', 'realex_hpp_api', 'vmpayment', 0, 0, 1, 0, '{\"name\":\"realex_hpp_api\",\"type\":\"plugin\",\"creationDate\":\"December 06 2017\",\"author\":\"The VirtueMart Development Team\",\"copyright\":\"Copyright (C) 2004 - 2017 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"3.2.8\",\"description\":\"Realex HPP and API\",\"group\":\"\",\"filename\":\"realex_hpp_api\"}', '', '', '', 0, '0000-00-00 00:00:00', 3, 0),
 (10013, 10000, 'VM UserField - Realex HPP & API', 'plugin', 'realex_hpp_api', 'vmuserfield', 0, 0, 1, 0, '{\"name\":\"Realex_hpp_api\",\"type\":\"plugin\",\"creationDate\":\"December 06 2017\",\"author\":\"The VirtueMart Development Team\",\"copyright\":\"Copyright (C) 2004 - 2017 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"3.2.8\",\"description\":\"Card storage plugin for Realex\",\"group\":\"\",\"filename\":\"realex_hpp_api\"}', '', '', '', 0, '0000-00-00 00:00:00', 3, 0),
@@ -2549,7 +2558,7 @@ INSERT INTO `rqewn_extensions` (`extension_id`, `package_id`, `name`, `type`, `e
 (10019, 10000, 'VM Custom - Customer text input', 'plugin', 'textinput', 'vmcustom', 0, 1, 1, 0, '{\"name\":\"VMCustom - textinput\",\"type\":\"plugin\",\"creationDate\":\"December 06 2017\",\"author\":\"The VirtueMart Development Team\",\"copyright\":\"Copyright (C) 2004-2014 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"3.2.8\",\"description\":\"text input plugin for product\",\"group\":\"\",\"filename\":\"textinput\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (10020, 10000, 'VM Custom - Product specification', 'plugin', 'specification', 'vmcustom', 0, 1, 1, 0, '{\"name\":\"plgvm_specification\",\"type\":\"plugin\",\"creationDate\":\"December 06 2017\",\"author\":\"The VirtueMart Development Team\",\"copyright\":\"Copyright (C) 2004-2014 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"3.2.8\",\"description\":\"VMCustom - specification; text input plugin for product\",\"group\":\"\",\"filename\":\"specification\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (10021, 10000, 'VM Calculation - Avalara Tax', 'plugin', 'avalara', 'vmcalculation', 0, 0, 1, 0, '{\"name\":\"VM - Calculation Avalara Tax\",\"type\":\"plugin\",\"creationDate\":\"December 06 2017\",\"author\":\"Max Milbers\",\"copyright\":\"Copyright (C) 2013 iStraxx UG (haftungsbeschr\\u00e4nkt). All rights reserved\",\"authorEmail\":\"\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"3.2.8\",\"description\":\"VM - Calculation Avalara Tax; On demand tax calculation for whole U.S.A.\",\"group\":\"\",\"filename\":\"avalara\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(10022, 10000, 'VirtueMart Product', 'plugin', 'virtuemart', 'search', 0, 0, 1, 0, '{\"name\":\"Search - VirtueMart\",\"type\":\"plugin\",\"creationDate\":\"December 06 2017\",\"author\":\"The VirtueMart Development Team\",\"copyright\":\"Copyright (C) 2004 - 2017 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"3.2.8\",\"description\":\"PLG_SEARCH_VIRTUEMART_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"virtuemart\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(10022, 10000, 'VirtueMart Product', 'plugin', 'virtuemart', 'search', 0, 1, 1, 0, '{\"name\":\"Search - VirtueMart\",\"type\":\"plugin\",\"creationDate\":\"December 06 2017\",\"author\":\"The VirtueMart Development Team\",\"copyright\":\"Copyright (C) 2004 - 2017 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"3.2.8\",\"description\":\"PLG_SEARCH_VIRTUEMART_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"virtuemart\"}', '', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (10023, 10000, 'mod_vmmenu', 'module', 'mod_vmmenu', '', 1, 1, 3, 0, '{\"name\":\"VirtueMart Administrator Menu\",\"type\":\"module\",\"creationDate\":\"December 06 2017\",\"author\":\"The VirtueMart Development Team\",\"copyright\":\"Copyright (C) 2004-2013 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"max|at|virtuemart.net\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"3.2.8\",\"description\":\"MOD_VMMENU_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"mod_vmmenu\"}', '', '', '', 0, '0000-00-00 00:00:00', 5, 0),
 (10024, 10000, 'mod_virtuemart_currencies', 'module', 'mod_virtuemart_currencies', '', 0, 1, 1, 0, '{\"name\":\"mod_virtuemart_currencies\",\"type\":\"module\",\"creationDate\":\"December 06 2017\",\"author\":\"The VirtueMart Development Team\",\"copyright\":\"Copyright (C) 2004 - 2017 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"3.2.8\",\"description\":\"MOD_VIRTUEMART_CURRENCIES_DESC\",\"group\":\"\",\"filename\":\"mod_virtuemart_currencies\"}', '', '', '', 0, '0000-00-00 00:00:00', 5, 0),
 (10025, 10000, 'mod_virtuemart_product', 'module', 'mod_virtuemart_product', '', 0, 1, 1, 0, '{\"name\":\"mod_virtuemart_product\",\"type\":\"module\",\"creationDate\":\"December 06 2017\",\"author\":\"The VirtueMart Development Team\",\"copyright\":\"Copyright (C) 2004 - 2017 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"https:\\/\\/virtuemart.net\",\"version\":\"3.2.8\",\"description\":\"MOD_VIRTUEMART_PRODUCT_DESC\",\"group\":\"\",\"filename\":\"mod_virtuemart_product\"}', '', '', '', 0, '0000-00-00 00:00:00', 3, 0),
@@ -2560,7 +2569,9 @@ INSERT INTO `rqewn_extensions` (`extension_id`, `package_id`, `name`, `type`, `e
 (10030, 10000, 'tcpdf', 'component', 'com_tcpdf', '', 1, 1, 0, 0, '{\"name\":\"tcpdf\",\"type\":\"component\",\"creationDate\":\"February 2015\",\"author\":\"Nicola Asuni, The VirtueMart Development Team\",\"copyright\":\"Copyright (c) 2001-2013 Nicola Asuni - Tecnick.com LTD - Tutti i diritti riservati - All Rights Reserved. 2015 Virtuemart Team. All rights reserved.\",\"authorEmail\":\"\",\"authorUrl\":\"https://virtuemart.net\",\"version\":\"1.0.4\",\"description\":\"TCPDF 6.2.12 by Nicola Asuni. Joomla Installer by the VirtueMart Team\",\"group\":\"\"}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (10031, 10000, 'vmbeez3', 'template', 'vmbeez3', '', 0, 1, 1, 0, '{\"name\":\"vmbeez3\",\"type\":\"template\",\"creationDate\":\"25 November 2009\",\"author\":\"Angie Radtke, adapted by the VirtueMart team\",\"copyright\":\"Copyright (C) 2005 - 2016 Open Source Matters, 2016 Virtuemart Team, Inc. All rights reserved.\",\"authorEmail\":\"team@virtuemart.net\",\"authorUrl\":\"http://virtuemart.net\",\"version\":\"3.1.0\",\"description\":\"TPL_BEEZ3_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"templateDetails\"}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
 (10032, 10000, 'VM Framework Loader during Plugin Updates', 'plugin', 'vmLoaderPluginUpdate', 'system', 0, 1, 1, 0, '{\"name\":\"VM Framework Loader during Plugin Updates\",\"type\":\"plugin\",\"creationDate\":\"2017-08-06\",\"author\":\"Reinhold Kainhofer\",\"copyright\":\"Copyright (C) 2017 Reinhold Kainhofer.\",\"authorEmail\":\"office@open-tools.net\",\"authorUrl\":\"http:\\/\\/www.virtuemart.net\\/\",\"version\":\"1.0\",\"description\":\"Makes sure the VirtueMart framework is loaded during automatic plugin updates using Joomla\'s plugin updater.\",\"group\":\"\",\"filename\":\"vmLoaderPluginUpdate\"}', '{}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
-(10033, 0, 'Subiz', 'plugin', 'Subiz', 'system', 0, 1, 1, 0, '{\"name\":\"Subiz\",\"type\":\"plugin\",\"creationDate\":\"02 Sep 2015\",\"author\":\"Subiz\",\"copyright\":\"Copyright Subiz 2015 - Live Chat Solution - All rights reserved.\",\"authorEmail\":\"support@subiz.com\",\"authorUrl\":\"http:\\/\\/www.subiz.com\",\"version\":\"1.0.0\",\"description\":\"PLG_SUBIZ_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"Subiz\"}', '{\"License_ID\":\"55094\",\"idcode\":\"window._sbzq||function(e){e._sbzq=[];var t=e._sbzq;t.push([\\\"_setAccount\\\",55094]);var n=e.location.protocol==\\\"https:\\\"?\\\"https:\\\":\\\"http:\\\";var r=document.createElement(\\\"script\\\");r.type=\\\"text\\/javascript\\\";r.async=true;r.src=n+\\\"\\/\\/static.subiz.com\\/public\\/js\\/loader.js\\\";var i=document.getElementsByTagName(\\\"script\\\")[0];i.parentNode.insertBefore(r,i)}(window);\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0);
+(10033, 0, 'Subiz', 'plugin', 'Subiz', 'system', 0, 1, 1, 0, '{\"name\":\"Subiz\",\"type\":\"plugin\",\"creationDate\":\"02 Sep 2015\",\"author\":\"Subiz\",\"copyright\":\"Copyright Subiz 2015 - Live Chat Solution - All rights reserved.\",\"authorEmail\":\"support@subiz.com\",\"authorUrl\":\"http:\\/\\/www.subiz.com\",\"version\":\"1.0.0\",\"description\":\"PLG_SUBIZ_XML_DESCRIPTION\",\"group\":\"\",\"filename\":\"Subiz\"}', '{\"License_ID\":\"55094\",\"idcode\":\"window._sbzq||function(e){e._sbzq=[];var t=e._sbzq;t.push([\\\"_setAccount\\\",55094]);var n=e.location.protocol==\\\"https:\\\"?\\\"https:\\\":\\\"http:\\\";var r=document.createElement(\\\"script\\\");r.type=\\\"text\\/javascript\\\";r.async=true;r.src=n+\\\"\\/\\/static.subiz.com\\/public\\/js\\/loader.js\\\";var i=document.getElementsByTagName(\\\"script\\\")[0];i.parentNode.insertBefore(r,i)}(window);\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(10034, 0, 'VIAN-GOOGLE+ COMMENT', 'plugin', 'viangpluscomments', 'content', 0, 1, 1, 0, '{\"name\":\"VIAN-GOOGLE+ COMMENT\",\"type\":\"plugin\",\"creationDate\":\"2013-04-30\",\"author\":\"VIAN\",\"copyright\":\"Copyright 2013 VIAN. All rights reserved.\",\"authorEmail\":\"design@vian.vn\",\"authorUrl\":\"http:\\/\\/vian.vn\\/\",\"version\":\"3.0\",\"description\":\"Plugein b\\u00ecnh lu\\u1eadn b\\u1eb1ng google plus for joomla 3\",\"group\":\"\",\"filename\":\"viangpluscomments\"}', '{\"width\":\"650\",\"counter\":\"1\",\"link\":\"1\",\"exclude_articles_ids\":\"\",\"exclude_articles_categories\":\"\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0),
+(10035, 0, 'Content - BT Social Share', 'plugin', 'bt_socialshare', 'content', 0, 1, 1, 0, '{\"name\":\"Content - BT Social Share\",\"type\":\"plugin\",\"creationDate\":\"Oct 2011\",\"author\":\"BowThemes.com\",\"copyright\":\"Copyright (C) 2012 BowThemes.com. All rights reserved.\",\"authorEmail\":\"support@BowThemes.com\",\"authorUrl\":\"http:\\/\\/www.BowThemes.com\\/\",\"version\":\"2.4\",\"description\":\"\\n\\t\\t<div class=\\\"bt_description\\\">\\n\\t\\t\\t<h3>BT Social Share Plugin Version 2.4<\\/h3>\\t\\t\\t\\n\\t\\t\\t<a href=\\\"http:\\/\\/bowthemes.com\\\" target=\\\"_blank\\\"><img src=\\\"..\\/plugins\\/content\\/bt_socialshare\\/admin\\/images\\/bt-social-share.png\\\"><\\/a>\\n\\t\\t\\t<p>BT Social Share plugin adds all major Social Networks into your Joomla articles. Plugin can be published at various locations in content, with 2 options display top or bottom of article. Plugin has backend settings where you can customise it. You can enable\\/disable each social network individually or show or hide them on specific sections, categories, individual articles or specific menus. \\n\\t\\t\\t<\\/p>\\n\\t\\t\\t<br clear=\\\"both\\\" \\/>\\n\\t\\t\\t<h3>Integrating External Code<\\/h3>\\n\\t\\t\\t <pre style=\\\"width:500px;height:150px;\\\">&lt;?php \\n\\tJPluginHelper::importPlugin(\'content\');\\n\\t$share = plgContentBt_socialshare::socialButtons();\\n\\techo $share[\'script\']; \\/\\/ Required\\n\\techo $share[\'buttons\']; \\/\\/ Social button\\n\\techo $share[\'comment\']; \\/\\/ facebook comment box\\n?&gt;<\\/pre>\\n\\t\\t\\t<br clear=\\\"both\\\" \\/>\\n\\t\\n\\t\\t\\t<h3>Features<\\/h3>\\n\\t\\t\\t<ul class=\\\"list-style\\\">\\n\\t\\t\\t\\t<li>Facebook Share<\\/li>\\n\\t\\t\\t\\t<li>Facebook Recommendations Bar<\\/li>\\n\\t\\t\\t\\t<li>Facebook Like (Send button)<\\/li>\\n\\t\\t\\t\\t<li>Facebook Comment(Auto width)<\\/li>\\n\\t\\t\\t\\t<li>Twitter Oficial Button<\\/li>\\n\\t\\t\\t\\t<li>TweetMe<\\/li>\\n\\t\\t\\t\\t<li>LinkedIn Share<\\/li>\\n\\t\\t\\t\\t<li>Google +1<\\/li>\\n\\t\\t\\t\\t<li>StumbleUpon<\\/li>\\n\\t\\t\\t\\t<li>Digg<\\/li>\\n\\t\\t\\t\\t<li>Position display in content options (Top\\/bottom\\/left\\/right)<\\/li>\\n\\t\\t\\t\\t<li>Option to display different for the various Joomla layouts (Archived Articles, Single Article, Category Blog and Featured Articles)<\\/li>\\n\\t\\t\\t\\t<li>Support K2 Component<\\/li>\\n\\t\\t\\t\\n\\t\\t\\t<\\/ul>\\n\\t\\t\\t<h3>UPgrade versions<\\/h3>\\n\\t\\t\\t<p>\\n\\t\\t\\t\\tYour current versions is 2.4. <a target=\\\"_blank\\\" href=\\\"http:\\/\\/bowthemes.com\\/bt-social-plugin.html\\\">Find our latest versions now<\\/a>\\n\\t\\t\\t<\\/p>\\n\\t\\t\\t<h3>Userful links<\\/h3>\\n\\t\\t\\t<ul>\\n\\t\\t\\t\\t<li><a target=\\\"_blank\\\" href=\\\"http:\\/\\/bowthemes.com\\/bt-social-plugin.html\\\">Video tutorials<\\/a><\\/li>\\n\\t\\t\\t\\t<li><a target=\\\"_blank\\\" href=\\\"http:\\/\\/bowthemes.com\\/forums\\/12-bt-social-sharing-plugin\\/\\\">Report bug<\\/a><\\/li>\\n\\t\\t\\t\\t<li><a target=\\\"_blank\\\" href=\\\"http:\\/\\/bowthemes.com\\/forums\\/12-bt-social-sharing-plugin\\/\\\">Forum support<\\/a><\\/li>\\n\\t\\t\\t<\\/ul>\\n\\t\\t\\t<h3>About bow themes & copyright<\\/h3>\\t\\n\\t\\t\\t<p>\\n\\t\\t\\t\\tBow Themes is Professional Joomla template provider. We are focused on creating unique, attractive and clean templates without loosing flexibility and simplicity of customization\\n\\t\\t\\t<\\/p>\\n\\t\\t\\tCopyright (C) 2012 BowThemes\\t\\n\\n\\t\\t<\\/div>\\n\\t\\t<style>\\n\\t\\t\\t.bt_description{\\n\\t\\t\\t\\ttext-align: left;\\n\\t\\t\\t}\\n\\t\\t\\t.bt_description h3{\\n\\t\\t\\t\\ttext-transform: uppercase;\\n\\t\\t\\t\\tmargin: 20px 0px 10px 0px;\\n\\t\\t\\t}\\n\\t\\t\\t.bt_description img{\\n\\t\\t\\t\\tfloat:left;\\n\\t\\t\\t\\tmargin:5px 10px 5px 0px;\\n\\t\\t\\t}\\n\\t\\t\\t.bt_description p,.bt_description li{\\n\\t\\t\\t\\tpadding: 5px 5px 5px 30px;\\t\\n\\t\\t\\t\\tlist-style: none outside none;\\t\\t\\n\\t\\t\\t}\\n\\t\\t\\t\\n\\t\\t\\t.bt_description ul.list-style li{\\n\\t\\t\\t\\tbackground:url(..\\/plugins\\/content\\/bt_socialshare\\/admin\\/images\\/tick.png) 0px 6px no-repeat;\\n\\t\\t\\t\\tpadding-left:30px;\\n\\t\\t\\t\\tline-height:15px;\\n\\t\\t\\t}\\n\\t\\t<\\/style>\\n\\t\\t\",\"group\":\"\",\"filename\":\"bt_socialshare\"}', '{\"facebook_share_button\":\"1\",\"facebook_share_button_type\":\"\",\"facebook_like\":\"1\",\"facebook_sendbutton\":\"0\",\"facebook_like_type\":\"button_count\",\"facebook_like_width\":\"70\",\"facebook_showface\":\"1\",\"facebook_like_font\":\"arial\",\"facebook_like_color\":\"light\",\"facebook_like_action\":\"like\",\"facebook_comment\":\"1\",\"facebook_comment_numberpost\":\"5\",\"facebook_comment_width\":\"auto\",\"facebook_comment_color_schema\":\"light\",\"facebook_comment_order\":\"\",\"show_cm_count\":\"1\",\"mail_to\":\"\",\"mail_subject\":\"New comment at \\\"[TITLE]\\\"\",\"mail_message\":\"Please check here: [LINK]\",\"facebook_html5\":\"0\",\"facebook_api_id\":\"\",\"facebook_admins\":\"\",\"twitter\":\"1\",\"twitter_name\":\"BowThemes\",\"twitter_counter\":\"horizontal\",\"twitter_size\":\"medium\",\"twitter_width\":\"80\",\"linkedin\":\"1\",\"linkedIn_type\":\"right\",\"linkedIn_showzero\":\"0\",\"google_plus\":\"1\",\"google_plus_annotation\":\"bubble\",\"google_plus_type\":\"20\",\"google_plus_use_html5\":\"0\",\"google_plus_asynchronous\":\"0\",\"google_plus_parse_tags\":\"onload\",\"stumble\":\"0\",\"stumble_type\":\"1\",\"digg\":\"0\",\"digg_type\":\"DiggCompact\",\"pinterest\":\"0\",\"pinit_size\":\"small\",\"pinit_style\":\"rectangle\",\"pinit_color\":\"red\",\"reddit\":\"0\",\"reddit_style\":\"1\",\"delicious\":\"0\",\"delicious_style\":\"1\",\"tumblr\":\"0\",\"tumblr_type\":\"large\",\"tumblr_color\":\"dark\",\"show_plugin_in\":\"article\",\"positions\":\"above\",\"k2-positions\":\"after-title\",\"og_meta\":\"1\",\"og_title\":\"0\",\"excluding_categories\":\"\",\"excluding_article\":\"\",\"excluding_k2_category\":\"\",\"excluding_k2_article\":\"\",\"fb_excluding_categories\":\"\",\"fb_excluding_article\":\"\",\"fb_excluding_k2_category\":\"\",\"fb_excluding_k2_article\":\"\"}', '', '', 0, '0000-00-00 00:00:00', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -2695,6 +2706,13 @@ CREATE TABLE `rqewn_finder_links` (
   `object` mediumblob NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `rqewn_finder_links`
+--
+
+INSERT INTO `rqewn_finder_links` (`link_id`, `url`, `route`, `title`, `description`, `indexdate`, `md5sum`, `published`, `state`, `access`, `language`, `publish_start_date`, `publish_end_date`, `start_date`, `end_date`, `list_price`, `sale_price`, `type_id`, `object`) VALUES
+(1, 'index.php?option=com_content&view=article&id=2', 'index.php?option=com_content&view=article&id=2:information&catid=2', 'Information', ' Sample Company Mr Doe John PO Box 123 98101 Seattle Germany Freistaat Sachsen 555-555-555 DE279592082 VAT-ID: XYZ-DEMO Reg.Nr: DEMONUMBER ', '2017-12-31 20:55:57', '811d7c5d7d2557c0b32df989fcde7642', 1, 1, 1, 'en-GB', '2017-12-31 13:55:56', '0000-00-00 00:00:00', '2017-12-31 13:55:56', '0000-00-00 00:00:00', 0, 0, 4, 0x4f3a31393a2246696e646572496e6465786572526573756c74223a31393a7b733a31313a22002a00656c656d656e7473223b613a32343a7b733a323a226964223b733a313a2232223b733a353a22616c696173223b733a31313a22696e666f726d6174696f6e223b733a373a2273756d6d617279223b733a3232333a223c64697620636c6173733d2276656e646f722d6465736372697074696f6e223e53616d706c6520436f6d70616e793c6272202f3e4d7220446f65204a6f686e3c6272202f3e504f20426f78203132333c6272202f3e39383130312053656174746c653c6272202f3e4765726d616e793c6272202f3e467265697374616174205361636873656e3c6272202f3e3535352d3535352d3535353c6272202f3e44453237393539323038323c2f6469763e0d0a3c703e5641542d49443a2058595a2d44454d4f3c6272202f3e5265672e4e723a2044454d4f4e554d4245523c2f703e223b733a343a22626f6479223b733a303a22223b733a353a226361746964223b733a313a2232223b733a31303a22637265617465645f6279223b733a333a22353738223b733a31363a22637265617465645f62795f616c696173223b733a303a22223b733a383a226d6f646966696564223b733a31393a22323031372d31322d33312031333a35353a3536223b733a31313a226d6f6469666965645f6279223b733a313a2230223b733a363a22706172616d73223b4f3a32343a224a6f6f6d6c615c52656769737472795c5265676973747279223a333a7b733a373a22002a0064617461223b4f3a383a22737464436c617373223a36383a7b733a31343a2261727469636c655f6c61796f7574223b733a393a225f3a64656661756c74223b733a31303a2273686f775f7469746c65223b733a313a2231223b733a31313a226c696e6b5f7469746c6573223b733a313a2231223b733a31303a2273686f775f696e74726f223b733a313a2231223b733a31333a2273686f775f63617465676f7279223b733a313a2231223b733a31333a226c696e6b5f63617465676f7279223b733a313a2231223b733a32303a2273686f775f706172656e745f63617465676f7279223b733a313a2230223b733a32303a226c696e6b5f706172656e745f63617465676f7279223b733a313a2230223b733a31313a2273686f775f617574686f72223b733a313a2231223b733a31313a226c696e6b5f617574686f72223b733a313a2230223b733a31363a2273686f775f6372656174655f64617465223b733a313a2230223b733a31363a2273686f775f6d6f646966795f64617465223b733a313a2230223b733a31373a2273686f775f7075626c6973685f64617465223b733a313a2231223b733a32303a2273686f775f6974656d5f6e617669676174696f6e223b733a313a2231223b733a393a2273686f775f766f7465223b733a313a2230223b733a31333a2273686f775f726561646d6f7265223b733a313a2231223b733a31393a2273686f775f726561646d6f72655f7469746c65223b733a313a2231223b733a31343a22726561646d6f72655f6c696d6974223b733a333a22313030223b733a31303a2273686f775f69636f6e73223b733a313a2231223b733a31353a2273686f775f7072696e745f69636f6e223b733a313a2231223b733a31353a2273686f775f656d61696c5f69636f6e223b733a313a2231223b733a393a2273686f775f68697473223b733a313a2231223b733a31313a2273686f775f6e6f61757468223b733a313a2230223b733a32333a2273686f775f7075626c697368696e675f6f7074696f6e73223b733a313a2231223b733a32303a2273686f775f61727469636c655f6f7074696f6e73223b733a313a2231223b733a31323a22736176655f686973746f7279223b733a313a2231223b733a31333a22686973746f72795f6c696d6974223b693a31303b733a32353a2273686f775f75726c735f696d616765735f66726f6e74656e64223b733a313a2230223b733a32343a2273686f775f75726c735f696d616765735f6261636b656e64223b733a313a2231223b733a373a2274617267657461223b693a303b733a373a2274617267657462223b693a303b733a373a2274617267657463223b693a303b733a31313a22666c6f61745f696e74726f223b733a343a226c656674223b733a31343a22666c6f61745f66756c6c74657874223b733a343a226c656674223b733a31353a2263617465676f72795f6c61796f7574223b733a363a225f3a626c6f67223b733a31393a2273686f775f63617465676f72795f7469746c65223b733a313a2230223b733a31363a2273686f775f6465736372697074696f6e223b733a313a2230223b733a32323a2273686f775f6465736372697074696f6e5f696d616765223b733a313a2230223b733a383a226d61784c6576656c223b733a313a2231223b733a32313a2273686f775f656d7074795f63617465676f72696573223b733a313a2230223b733a31363a2273686f775f6e6f5f61727469636c6573223b733a313a2231223b733a31363a2273686f775f7375626361745f64657363223b733a313a2231223b733a32313a2273686f775f6361745f6e756d5f61727469636c6573223b733a313a2230223b733a32313a2273686f775f626173655f6465736372697074696f6e223b733a313a2231223b733a31313a226d61784c6576656c636174223b733a323a222d31223b733a32353a2273686f775f656d7074795f63617465676f726965735f636174223b733a313a2230223b733a32303a2273686f775f7375626361745f646573635f636174223b733a313a2231223b733a32353a2273686f775f6361745f6e756d5f61727469636c65735f636174223b733a313a2231223b733a32303a226e756d5f6c656164696e675f61727469636c6573223b733a313a2231223b733a31383a226e756d5f696e74726f5f61727469636c6573223b733a313a2234223b733a31313a226e756d5f636f6c756d6e73223b733a313a2232223b733a393a226e756d5f6c696e6b73223b733a313a2234223b733a31383a226d756c74695f636f6c756d6e5f6f72646572223b733a313a2230223b733a32343a2273686f775f73756263617465676f72795f636f6e74656e74223b733a313a2230223b733a32313a2273686f775f706167696e6174696f6e5f6c696d6974223b733a313a2231223b733a31323a2266696c7465725f6669656c64223b733a343a2268696465223b733a31333a2273686f775f68656164696e6773223b733a313a2231223b733a31343a226c6973745f73686f775f64617465223b733a313a2230223b733a31313a22646174655f666f726d6174223b733a303a22223b733a31343a226c6973745f73686f775f68697473223b733a313a2231223b733a31363a226c6973745f73686f775f617574686f72223b733a313a2231223b733a31313a226f7264657262795f707269223b733a353a226f72646572223b733a31313a226f7264657262795f736563223b733a353a227264617465223b733a31303a226f726465725f64617465223b733a393a227075626c6973686564223b733a31353a2273686f775f706167696e6174696f6e223b733a313a2232223b733a32333a2273686f775f706167696e6174696f6e5f726573756c7473223b733a313a2231223b733a31343a2273686f775f666565645f6c696e6b223b733a313a2231223b733a31323a22666565645f73756d6d617279223b733a313a2230223b7d733a31343a22002a00696e697469616c697a6564223b623a313b733a393a22736570617261746f72223b733a313a222e223b7d733a373a226d6574616b6579223b733a303a22223b733a383a226d65746164657363223b733a303a22223b733a383a226d65746164617461223b4f3a32343a224a6f6f6d6c615c52656769737472795c5265676973747279223a333a7b733a373a22002a0064617461223b4f3a383a22737464436c617373223a343a7b733a363a22726f626f7473223b733a303a22223b733a363a22617574686f72223b733a303a22223b733a363a22726967687473223b733a303a22223b733a31303a22787265666572656e6365223b733a303a22223b7d733a31343a22002a00696e697469616c697a6564223b623a313b733a393a22736570617261746f72223b733a313a222e223b7d733a373a2276657273696f6e223b733a313a2231223b733a383a226f72646572696e67223b733a313a2230223b733a383a2263617465676f7279223b733a31333a22556e63617465676f7269736564223b733a393a226361745f7374617465223b733a313a2231223b733a31303a226361745f616363657373223b733a313a2231223b733a343a22736c7567223b733a31333a22323a696e666f726d6174696f6e223b733a373a22636174736c7567223b733a31353a22323a756e63617465676f7269736564223b733a363a22617574686f72223b733a31363a225452414e205448414e482050484f4e47223b733a363a226c61796f7574223b733a373a2261727469636c65223b733a343a2270617468223b733a37363a22696e6465782e7068702f636f6d706f6e656e742f636f6e74656e742f61727469636c652f322d756e63617465676f72697365642f322d696e666f726d6174696f6e3f4974656d69643d313031223b733a31303a226d657461617574686f72223b4e3b7d733a31353a22002a00696e737472756374696f6e73223b613a353a7b693a313b613a333a7b693a303b733a353a227469746c65223b693a313b733a383a227375627469746c65223b693a323b733a323a226964223b7d693a323b613a323a7b693a303b733a373a2273756d6d617279223b693a313b733a343a22626f6479223b7d693a333b613a383a7b693a303b733a343a226d657461223b693a313b733a31303a226c6973745f7072696365223b693a323b733a31303a2273616c655f7072696365223b693a333b733a373a226d6574616b6579223b693a343b733a383a226d65746164657363223b693a353b733a31303a226d657461617574686f72223b693a363b733a363a22617574686f72223b693a373b733a31363a22637265617465645f62795f616c696173223b7d693a343b613a323a7b693a303b733a343a2270617468223b693a313b733a353a22616c696173223b7d693a353b613a313a7b693a303b733a383a22636f6d6d656e7473223b7d7d733a31313a22002a007461786f6e6f6d79223b613a343a7b733a343a2254797065223b613a313a7b733a373a2241727469636c65223b4f3a32373a224a6f6f6d6c615c434d535c4f626a6563745c434d534f626a656374223a343a7b733a31303a22002a005f6572726f7273223b613a303a7b7d733a353a227469746c65223b733a373a2241727469636c65223b733a353a227374617465223b693a313b733a363a22616363657373223b693a313b7d7d733a363a22417574686f72223b613a313a7b733a31363a225452414e205448414e482050484f4e47223b4f3a32373a224a6f6f6d6c615c434d535c4f626a6563745c434d534f626a656374223a343a7b733a31303a22002a005f6572726f7273223b613a303a7b7d733a353a227469746c65223b733a31363a225452414e205448414e482050484f4e47223b733a353a227374617465223b693a313b733a363a22616363657373223b693a313b7d7d733a383a2243617465676f7279223b613a313a7b733a31333a22556e63617465676f7269736564223b4f3a32373a224a6f6f6d6c615c434d535c4f626a6563745c434d534f626a656374223a343a7b733a31303a22002a005f6572726f7273223b613a303a7b7d733a353a227469746c65223b733a31333a22556e63617465676f7269736564223b733a353a227374617465223b693a313b733a363a22616363657373223b693a313b7d7d733a383a224c616e6775616765223b613a313a7b733a353a22656e2d4742223b4f3a32373a224a6f6f6d6c615c434d535c4f626a6563745c434d534f626a656374223a343a7b733a31303a22002a005f6572726f7273223b613a303a7b7d733a353a227469746c65223b733a353a22656e2d4742223b733a353a227374617465223b693a313b733a363a22616363657373223b693a313b7d7d7d733a333a2275726c223b733a34363a22696e6465782e7068703f6f7074696f6e3d636f6d5f636f6e74656e7426766965773d61727469636c652669643d32223b733a353a22726f757465223b733a36363a22696e6465782e7068703f6f7074696f6e3d636f6d5f636f6e74656e7426766965773d61727469636c652669643d323a696e666f726d6174696f6e2663617469643d32223b733a353a227469746c65223b733a31313a22496e666f726d6174696f6e223b733a31313a226465736372697074696f6e223b733a3133393a222053616d706c6520436f6d70616e79204d7220446f65204a6f686e20504f20426f78203132332039383130312053656174746c65204765726d616e7920467265697374616174205361636873656e203535352d3535352d353535204445323739353932303832205641542d49443a2058595a2d44454d4f205265672e4e723a2044454d4f4e554d42455220223b733a393a227075626c6973686564223b4e3b733a353a227374617465223b693a313b733a363a22616363657373223b733a313a2231223b733a383a226c616e6775616765223b733a353a22656e2d4742223b733a31383a227075626c6973685f73746172745f64617465223b733a31393a22323031372d31322d33312031333a35353a3536223b733a31363a227075626c6973685f656e645f64617465223b733a31393a22303030302d30302d30302030303a30303a3030223b733a31303a2273746172745f64617465223b733a31393a22323031372d31322d33312031333a35353a3536223b733a383a22656e645f64617465223b733a31393a22303030302d30302d30302030303a30303a3030223b733a31303a226c6973745f7072696365223b4e3b733a31303a2273616c655f7072696365223b4e3b733a373a22747970655f6964223b693a343b733a31353a2264656661756c744c616e6775616765223b733a353a22656e2d5553223b7d);
+
 -- --------------------------------------------------------
 
 --
@@ -2706,6 +2724,22 @@ CREATE TABLE `rqewn_finder_links_terms0` (
   `term_id` int(10) UNSIGNED NOT NULL,
   `weight` float UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `rqewn_finder_links_terms0`
+--
+
+INSERT INTO `rqewn_finder_links_terms0` (`link_id`, `term_id`, `weight`) VALUES
+(1, 11, 0.56004),
+(1, 49, 0.32669),
+(1, 50, 1.14331),
+(1, 51, 1.4),
+(1, 52, 0.28),
+(1, 53, 1.02669),
+(1, 54, 1.09669),
+(1, 55, 0.32669),
+(1, 56, 1.05),
+(1, 57, 1.28331);
 
 -- --------------------------------------------------------
 
@@ -2743,6 +2777,15 @@ CREATE TABLE `rqewn_finder_links_terms3` (
   `weight` float UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `rqewn_finder_links_terms3`
+--
+
+INSERT INTO `rqewn_finder_links_terms3` (`link_id`, `term_id`, `weight`) VALUES
+(1, 34, 0.18669),
+(1, 35, 0.86331),
+(1, 36, 0.95669);
+
 -- --------------------------------------------------------
 
 --
@@ -2754,6 +2797,21 @@ CREATE TABLE `rqewn_finder_links_terms4` (
   `term_id` int(10) UNSIGNED NOT NULL,
   `weight` float UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `rqewn_finder_links_terms4`
+--
+
+INSERT INTO `rqewn_finder_links_terms4` (`link_id`, `term_id`, `weight`) VALUES
+(1, 8, 0.35),
+(1, 9, 1.00331),
+(1, 10, 1.19),
+(1, 15, 0.32669),
+(1, 16, 0.93331),
+(1, 17, 1.02669),
+(1, 46, 0.14),
+(1, 47, 0.84),
+(1, 48, 1.09669);
 
 -- --------------------------------------------------------
 
@@ -2779,6 +2837,15 @@ CREATE TABLE `rqewn_finder_links_terms6` (
   `weight` float UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `rqewn_finder_links_terms6`
+--
+
+INSERT INTO `rqewn_finder_links_terms6` (`link_id`, `term_id`, `weight`) VALUES
+(1, 37, 0.09331),
+(1, 38, 0.84),
+(1, 39, 0.95669);
+
 -- --------------------------------------------------------
 
 --
@@ -2790,6 +2857,15 @@ CREATE TABLE `rqewn_finder_links_terms7` (
   `term_id` int(10) UNSIGNED NOT NULL,
   `weight` float UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `rqewn_finder_links_terms7`
+--
+
+INSERT INTO `rqewn_finder_links_terms7` (`link_id`, `term_id`, `weight`) VALUES
+(1, 40, 0.09331),
+(1, 41, 1.00331),
+(1, 63, 1.04004);
 
 -- --------------------------------------------------------
 
@@ -2803,6 +2879,28 @@ CREATE TABLE `rqewn_finder_links_terms8` (
   `weight` float UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `rqewn_finder_links_terms8`
+--
+
+INSERT INTO `rqewn_finder_links_terms8` (`link_id`, `term_id`, `weight`) VALUES
+(1, 18, 0.51331),
+(1, 19, 1.12),
+(1, 20, 1.33),
+(1, 21, 0.46669),
+(1, 22, 0.14),
+(1, 23, 0.88669),
+(1, 24, 0.95669),
+(1, 26, 0.42),
+(1, 27, 1.09669),
+(1, 28, 1.37669),
+(1, 32, 0.6666),
+(1, 33, 2.71321),
+(1, 42, 0.79992),
+(1, 43, 0.09331),
+(1, 44, 0.84),
+(1, 45, 0.93331);
+
 -- --------------------------------------------------------
 
 --
@@ -2814,6 +2912,21 @@ CREATE TABLE `rqewn_finder_links_terms9` (
   `term_id` int(10) UNSIGNED NOT NULL,
   `weight` float UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `rqewn_finder_links_terms9`
+--
+
+INSERT INTO `rqewn_finder_links_terms9` (`link_id`, `term_id`, `weight`) VALUES
+(1, 12, 0.14),
+(1, 13, 0.86331),
+(1, 14, 1.00331),
+(1, 64, 0.28),
+(1, 65, 1.05),
+(1, 66, 1.14331),
+(1, 67, 0.37331),
+(1, 68, 0.98),
+(1, 69, 1.05);
 
 -- --------------------------------------------------------
 
@@ -2839,6 +2952,15 @@ CREATE TABLE `rqewn_finder_links_termsb` (
   `weight` float UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `rqewn_finder_links_termsb`
+--
+
+INSERT INTO `rqewn_finder_links_termsb` (`link_id`, `term_id`, `weight`) VALUES
+(1, 29, 0.32669),
+(1, 30, 1.09669),
+(1, 31, 1.28331);
+
 -- --------------------------------------------------------
 
 --
@@ -2850,6 +2972,16 @@ CREATE TABLE `rqewn_finder_links_termsc` (
   `term_id` int(10) UNSIGNED NOT NULL,
   `weight` float UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `rqewn_finder_links_termsc`
+--
+
+INSERT INTO `rqewn_finder_links_termsc` (`link_id`, `term_id`, `weight`) VALUES
+(1, 1, 0.21),
+(1, 2, 0.91),
+(1, 3, 1.09669),
+(1, 4, 0.17);
 
 -- --------------------------------------------------------
 
@@ -2874,6 +3006,21 @@ CREATE TABLE `rqewn_finder_links_termse` (
   `term_id` int(10) UNSIGNED NOT NULL,
   `weight` float UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `rqewn_finder_links_termse`
+--
+
+INSERT INTO `rqewn_finder_links_termse` (`link_id`, `term_id`, `weight`) VALUES
+(1, 5, 0.77),
+(1, 6, 1.23669),
+(1, 7, 1.4),
+(1, 25, 0.39996),
+(1, 58, 0.79992),
+(1, 59, 3.28008),
+(1, 60, 0.64008),
+(1, 61, 3.19992),
+(1, 62, 3.67992);
 
 -- --------------------------------------------------------
 
@@ -2907,7 +3054,15 @@ CREATE TABLE `rqewn_finder_taxonomy` (
 --
 
 INSERT INTO `rqewn_finder_taxonomy` (`id`, `parent_id`, `title`, `state`, `access`, `ordering`) VALUES
-(1, 0, 'ROOT', 0, 0, 0);
+(1, 0, 'ROOT', 0, 0, 0),
+(2, 1, 'Type', 1, 1, 0),
+(3, 2, 'Article', 1, 1, 0),
+(4, 1, 'Author', 1, 1, 0),
+(5, 4, 'TRAN THANH PHONG', 1, 1, 0),
+(6, 1, 'Category', 1, 1, 0),
+(7, 6, 'Uncategorised', 1, 1, 0),
+(8, 1, 'Language', 1, 1, 0),
+(9, 8, 'en-GB', 1, 1, 0);
 
 -- --------------------------------------------------------
 
@@ -2919,6 +3074,16 @@ CREATE TABLE `rqewn_finder_taxonomy_map` (
   `link_id` int(10) UNSIGNED NOT NULL,
   `node_id` int(10) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `rqewn_finder_taxonomy_map`
+--
+
+INSERT INTO `rqewn_finder_taxonomy_map` (`link_id`, `node_id`) VALUES
+(1, 3),
+(1, 5),
+(1, 7),
+(1, 9);
 
 -- --------------------------------------------------------
 
@@ -2937,6 +3102,81 @@ CREATE TABLE `rqewn_finder_terms` (
   `links` int(10) NOT NULL DEFAULT '0',
   `language` char(3) NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `rqewn_finder_terms`
+--
+
+INSERT INTO `rqewn_finder_terms` (`term_id`, `term`, `stem`, `common`, `phrase`, `weight`, `soundex`, `links`, `language`) VALUES
+(1, '123', '123', 0, 0, 0.3, '', 1, 'en'),
+(2, '123 98101', '123 98101', 0, 1, 1.3, '', 1, 'en'),
+(3, '123 98101 seattle', '123 98101 seattle', 0, 1, 1.5667, 'S340', 1, 'en'),
+(4, '2', '2', 0, 0, 0.1, '', 1, 'en'),
+(5, '555-555-555', '555-555-555', 0, 0, 1.1, '', 1, 'en'),
+(6, '555-555-555 de279592082', '555-555-555 de279592082', 0, 1, 1.7667, 'D000', 1, 'en'),
+(7, '555-555-555 de279592082 vat-id', '555-555-555 de279592082 vat-id', 0, 1, 2, 'D130', 1, 'en'),
+(8, '98101', '98101', 0, 0, 0.5, '', 1, 'en'),
+(9, '98101 seattle', '98101 seattle', 0, 1, 1.4333, 'S340', 1, 'en'),
+(10, '98101 seattle germany', '98101 seattle germany', 0, 1, 1.7, 'S34265', 1, 'en'),
+(11, 'article', 'article', 0, 0, 0.4667, 'A6324', 1, 'en'),
+(12, 'box', 'box', 0, 0, 0.2, 'B200', 1, 'en'),
+(13, 'box 123', 'box 123', 0, 1, 1.2333, 'B200', 1, 'en'),
+(14, 'box 123 98101', 'box 123 98101', 0, 1, 1.4333, 'B200', 1, 'en'),
+(15, 'company', 'company', 0, 0, 0.4667, 'C515', 1, 'en'),
+(16, 'company mr', 'company mr', 0, 1, 1.3333, 'C5156', 1, 'en'),
+(17, 'company mr doe', 'company mr doe', 0, 1, 1.4667, 'C51563', 1, 'en'),
+(18, 'de279592082', 'de279592082', 0, 0, 0.7333, 'D000', 1, 'en'),
+(19, 'de279592082 vat-id', 'de279592082 vat-id', 0, 1, 1.6, 'D130', 1, 'en'),
+(20, 'de279592082 vat-id xyz-demo', 'de279592082 vat-id xyz-demo', 0, 1, 1.9, 'D13235', 1, 'en'),
+(21, 'demonumber', 'demonumber', 0, 0, 0.6667, 'D516', 1, 'en'),
+(22, 'doe', 'doe', 0, 0, 0.2, 'D000', 1, 'en'),
+(23, 'doe john', 'doe john', 0, 1, 1.2667, 'D250', 1, 'en'),
+(24, 'doe john po', 'doe john po', 0, 1, 1.3667, 'D251', 1, 'en'),
+(25, 'en-gb', 'en-gb', 0, 0, 0.3333, 'E521', 1, 'en'),
+(26, 'freistaat', 'freistaat', 0, 0, 0.6, 'F623', 1, 'en'),
+(27, 'freistaat sachsen', 'freistaat sachsen', 0, 1, 1.5667, 'F62325', 1, 'en'),
+(28, 'freistaat sachsen 555-555-555', 'freistaat sachsen 555-555-555', 0, 1, 1.9667, 'F62325', 1, 'en'),
+(29, 'germany', 'germany', 0, 0, 0.4667, 'G650', 1, 'en'),
+(30, 'germany freistaat', 'germany freistaat', 0, 1, 1.5667, 'G651623', 1, 'en'),
+(31, 'germany freistaat sachsen', 'germany freistaat sachsen', 0, 1, 1.8333, 'G65162325', 1, 'en'),
+(32, 'index', 'index', 0, 0, 0.3333, 'I532', 1, 'en'),
+(33, 'information', 'information', 0, 0, 0.7333, 'I516535', 1, 'en'),
+(34, 'john', 'john', 0, 0, 0.2667, 'J500', 1, 'en'),
+(35, 'john po', 'john po', 0, 1, 1.2333, 'J510', 1, 'en'),
+(36, 'john po box', 'john po box', 0, 1, 1.3667, 'J512', 1, 'en'),
+(37, 'mr', 'mr', 0, 0, 0.1333, 'M600', 1, 'en'),
+(38, 'mr doe', 'mr doe', 0, 1, 1.2, 'M630', 1, 'en'),
+(39, 'mr doe john', 'mr doe john', 0, 1, 1.3667, 'M6325', 1, 'en'),
+(40, 'nr', 'nr', 0, 0, 0.1333, 'N600', 1, 'en'),
+(41, 'nr demonumber', 'nr demonumber', 0, 1, 1.4333, 'N63516', 1, 'en'),
+(42, 'phong', 'phong', 0, 0, 0.3333, 'P520', 1, 'en'),
+(43, 'po', 'po', 0, 0, 0.1333, 'P000', 1, 'en'),
+(44, 'po box', 'po box', 0, 1, 1.2, 'P200', 1, 'en'),
+(45, 'po box 123', 'po box 123', 0, 1, 1.3333, 'P200', 1, 'en'),
+(46, 'reg', 'reg', 0, 0, 0.2, 'R200', 1, 'en'),
+(47, 'reg nr', 'reg nr', 0, 1, 1.2, 'R256', 1, 'en'),
+(48, 'reg nr demonumber', 'reg nr demonumber', 0, 1, 1.5667, 'R2563516', 1, 'en'),
+(49, 'sachsen', 'sachsen', 0, 0, 0.4667, 'S500', 1, 'en'),
+(50, 'sachsen 555-555-555', 'sachsen 555-555-555', 0, 1, 1.6333, 'S500', 1, 'en'),
+(51, 'sachsen 555-555-555 de279592082', 'sachsen 555-555-555 de279592082', 0, 1, 2, 'S530', 1, 'en'),
+(52, 'sample', 'sample', 0, 0, 0.4, 'S514', 1, 'en'),
+(53, 'sample company', 'sample company', 0, 1, 1.4667, 'S5142515', 1, 'en'),
+(54, 'sample company mr', 'sample company mr', 0, 1, 1.5667, 'S51425156', 1, 'en'),
+(55, 'seattle', 'seattle', 0, 0, 0.4667, 'S340', 1, 'en'),
+(56, 'seattle germany', 'seattle germany', 0, 1, 1.5, 'S34265', 1, 'en'),
+(57, 'seattle germany freistaat', 'seattle germany freistaat', 0, 1, 1.8333, 'S342651623', 1, 'en'),
+(58, 'thanh', 'thanh', 0, 0, 0.3333, 'T500', 1, 'en'),
+(59, 'thanh phong', 'thanh phong', 0, 1, 1.3667, 'T5152', 1, 'en'),
+(60, 'tran', 'tran', 0, 0, 0.2667, 'T650', 1, 'en'),
+(61, 'tran thanh', 'tran thanh', 0, 1, 1.3333, 'T6535', 1, 'en'),
+(62, 'tran thanh phong', 'tran thanh phong', 0, 1, 1.5333, 'T6535152', 1, 'en'),
+(63, 'uncategorised', 'uncategorised', 0, 0, 0.8667, 'U5232623', 1, 'en'),
+(64, 'vat-id', 'vat-id', 0, 0, 0.4, 'V300', 1, 'en'),
+(65, 'vat-id xyz-demo', 'vat-id xyz-demo', 0, 1, 1.5, 'V3235', 1, 'en'),
+(66, 'vat-id xyz-demo reg', 'vat-id xyz-demo reg', 0, 1, 1.6333, 'V323562', 1, 'en'),
+(67, 'xyz-demo', 'xyz-demo', 0, 0, 0.5333, 'X350', 1, 'en'),
+(68, 'xyz-demo reg', 'xyz-demo reg', 0, 1, 1.4, 'X3562', 1, 'en'),
+(69, 'xyz-demo reg nr', 'xyz-demo reg nr', 0, 1, 1.5, 'X356256', 1, 'en');
 
 -- --------------------------------------------------------
 
@@ -3113,6 +3353,17 @@ CREATE TABLE `rqewn_finder_types` (
   `mime` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `rqewn_finder_types`
+--
+
+INSERT INTO `rqewn_finder_types` (`id`, `title`, `mime`) VALUES
+(1, 'Tag', ''),
+(2, 'Category', ''),
+(3, 'Contact', ''),
+(4, 'Article', ''),
+(5, 'News Feed', '');
+
 -- --------------------------------------------------------
 
 --
@@ -3221,7 +3472,7 @@ INSERT INTO `rqewn_menu` (`id`, `menutype`, `title`, `alias`, `note`, `path`, `l
 (130, 'mainmenu', 'Account', 'account', '', 'account', 'index.php?option=com_virtuemart&view=user&layout=edit', 'component', 1, 1, 1, 10000, 0, '0000-00-00 00:00:00', 0, 1, ' ', 0, '{\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0}', 73, 74, 0, '*', 0),
 (131, 'mainmenu', 'Orders', 'orders', '', 'orders', 'index.php?option=com_virtuemart&view=orders&layout=list', 'component', 1, 1, 1, 10000, 0, '0000-00-00 00:00:00', 0, 1, ' ', 0, '{\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0}', 75, 76, 0, '*', 0),
 (132, 'mainmenu', 'Cart', 'cart', '', 'cart', 'index.php?option=com_virtuemart&view=cart', 'component', 1, 1, 1, 10000, 0, '0000-00-00 00:00:00', 0, 1, ' ', 0, '{\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0}', 77, 78, 0, '*', 0),
-(133, 'mainmenu', 'News', 'news', '', 'news', 'index.php?option=com_contact&view=featured', 'component', 1, 1, 1, 8, 0, '0000-00-00 00:00:00', 0, 1, ' ', 0, '{\"show_pagination_limit\":\"\",\"show_headings\":\"\",\"show_position_headings\":\"\",\"show_email_headings\":\"\",\"show_telephone_headings\":\"\",\"show_mobile_headings\":\"\",\"show_fax_headings\":\"\",\"show_suburb_headings\":\"\",\"show_state_headings\":\"\",\"show_country_headings\":\"\",\"show_pagination\":\"\",\"show_pagination_results\":\"\",\"presentation_style\":\"\",\"show_tags\":\"\",\"show_info\":\"\",\"show_name\":\"\",\"show_position\":\"\",\"show_email\":\"\",\"show_street_address\":\"\",\"show_suburb\":\"\",\"show_state\":\"\",\"show_postcode\":\"\",\"show_country\":\"\",\"show_telephone\":\"\",\"show_mobile\":\"\",\"show_fax\":\"\",\"show_webpage\":\"\",\"show_image\":\"\",\"allow_vcard\":\"\",\"show_misc\":\"\",\"show_articles\":\"\",\"articles_display_num\":\"\",\"show_links\":\"\",\"linka_name\":\"\",\"linkb_name\":\"\",\"linkc_name\":\"\",\"linkd_name\":\"\",\"linke_name\":\"\",\"show_email_form\":\"\",\"show_email_copy\":\"\",\"banned_email\":\"\",\"banned_subject\":\"\",\"banned_text\":\"\",\"validate_session\":\"\",\"custom_reply\":\"\",\"redirect\":\"\",\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_image_css\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"Sample Company\\r\\nMr Doe John\\r\\nPO Box 123\\r\\n98101 Seattle\\r\\nGermany\\r\\nFreistaat Sachsen\\r\\n555-555-555\\r\\nDE279592082\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0}', 79, 80, 0, '*', 0);
+(133, 'mainmenu', 'News', 'news', '', 'news', 'index.php?option=com_content&view=article&id=2', 'component', 1, 1, 1, 22, 0, '0000-00-00 00:00:00', 0, 1, ' ', 0, '{\"show_title\":\"\",\"link_titles\":\"\",\"show_intro\":\"\",\"info_block_position\":\"\",\"info_block_show_title\":\"\",\"show_category\":\"\",\"link_category\":\"\",\"show_parent_category\":\"\",\"link_parent_category\":\"\",\"show_associations\":\"\",\"show_author\":\"\",\"link_author\":\"\",\"show_create_date\":\"\",\"show_modify_date\":\"\",\"show_publish_date\":\"\",\"show_item_navigation\":\"\",\"show_vote\":\"\",\"show_icons\":\"\",\"show_print_icon\":\"\",\"show_email_icon\":\"\",\"show_hits\":\"\",\"show_tags\":\"\",\"show_noauth\":\"\",\"urls_position\":\"\",\"menu-anchor_title\":\"\",\"menu-anchor_css\":\"\",\"menu_image\":\"\",\"menu_image_css\":\"\",\"menu_text\":1,\"menu_show\":1,\"page_title\":\"\",\"show_page_heading\":\"\",\"page_heading\":\"\",\"pageclass_sfx\":\"\",\"menu-meta_description\":\"Sample Company\\r\\nMr Doe John\\r\\nPO Box 123\\r\\n98101 Seattle\\r\\nGermany\\r\\nFreistaat Sachsen\\r\\n555-555-555\\r\\nDE279592082\",\"menu-meta_keywords\":\"\",\"robots\":\"\",\"secure\":0}', 79, 80, 0, '*', 0);
 
 -- --------------------------------------------------------
 
@@ -3516,8 +3767,7 @@ CREATE TABLE `rqewn_session` (
 --
 
 INSERT INTO `rqewn_session` (`session_id`, `client_id`, `guest`, `time`, `data`, `userid`, `username`) VALUES
-('6o8u0iuscp75s5gkjjmpmar755', 0, 1, '1514361246', 'joomla|s:1708:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjI6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aTozO3M6NToidGltZXIiO086ODoic3RkQ2xhc3MiOjM6e3M6NToic3RhcnQiO2k6MTUxNDM2MTEyMDtzOjQ6Imxhc3QiO2k6MTUxNDM2MTIwOTtzOjM6Im5vdyI7aToxNTE0MzYxMjE3O31zOjU6InRva2VuIjtzOjMyOiJrRXNUTUxrbzJyakZHcnpaTEJuVHRDZ05ZVkxQeUhWeiI7fXM6ODoicmVnaXN0cnkiO086MjQ6Ikpvb21sYVxSZWdpc3RyeVxSZWdpc3RyeSI6Mzp7czo3OiIAKgBkYXRhIjtPOjg6InN0ZENsYXNzIjowOnt9czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9czo0OiJ1c2VyIjtPOjIwOiJKb29tbGFcQ01TXFVzZXJcVXNlciI6MTp7czoyOiJpZCI7aTowO319czo0OiJfX3ZtIjtPOjg6InN0ZENsYXNzIjo1OntzOjY6Im1hbmFnZSI7aTowO3M6MTk6InZtbGFzdHZpc2l0ZWRJdGVtaWQiO2k6MTAxO3M6MjM6InZtbGFzdHZpc2l0ZWRjYXRlZ29yeWlkIjtpOjA7czoxOToidm1sYXN0dmlzaXRlZG1hbnVpZCI7aTowO3M6Njoidm1jYXJ0IjtzOjU2MzoieyJjYXJ0UHJvZHVjdHNEYXRhIjpbXSwidmVuZG9ySWQiOjAsImxhc3RWaXNpdGVkQ2F0ZWdvcnlJZCI6MCwidmlydHVlbWFydF9zaGlwbWVudG1ldGhvZF9pZCI6MCwidmlydHVlbWFydF9wYXltZW50bWV0aG9kX2lkIjowLCJhdXRvbWF0aWNTZWxlY3RlZFNoaXBtZW50IjpmYWxzZSwiYXV0b21hdGljU2VsZWN0ZWRQYXltZW50IjpmYWxzZSwib3JkZXJfbnVtYmVyIjpudWxsLCJCVCI6MCwiU1QiOjAsImNhcnRmaWVsZHMiOm51bGwsImNvdXBvbkNvZGUiOiIiLCJfdHJpZXNWYWxpZGF0ZUNvdXBvbiI6W10sIm9yZGVyX2xhbmd1YWdlIjoiZW4tR0IiLCJwcmljZXNDdXJyZW5jeSI6bnVsbCwicGF5bWVudEN1cnJlbmN5IjpudWxsLCJfZ3Vlc3QiOjEsIl9pbkNoZWNrT3V0IjpmYWxzZSwiX2luQ29uZmlybSI6ZmFsc2UsIl9kYXRhVmFsaWRhdGVkIjpmYWxzZSwiX2NvbmZpcm1Eb25lIjpmYWxzZSwiU1RzYW1lQXNCVCI6MSwic2VsZWN0ZWRfc2hpcHRvIjowLCJfZnJvbUNhcnQiOmZhbHNlLCJsYXlvdXQiOiJkZWZhdWx0IiwibGF5b3V0UGF0aCI6IiIsInZpcnR1ZW1hcnRfY2FydF9pZCI6MH0iO319czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9\";', 0, ''),
-('jv027eluu7bah299nqlrv6bqj0', 1, 0, '1514361627', 'joomla|s:976:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjE6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjozOntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aToxMjtzOjU6InRpbWVyIjtPOjg6InN0ZENsYXNzIjozOntzOjU6InN0YXJ0IjtpOjE1MTQzNjExNzA7czo0OiJsYXN0IjtpOjE1MTQzNjE1ODk7czozOiJub3ciO2k6MTUxNDM2MTYyNzt9czo1OiJ0b2tlbiI7czozMjoienMzaXVKc2N5MlpZVHdPUmN6ZmZ3RUVzT0xGdGlnbUciO31zOjg6InJlZ2lzdHJ5IjtPOjI0OiJKb29tbGFcUmVnaXN0cnlcUmVnaXN0cnkiOjM6e3M6NzoiACoAZGF0YSI7Tzo4OiJzdGRDbGFzcyI6MTp7czoxNDoiY29tX3ZpcnR1ZW1hcnQiO086ODoic3RkQ2xhc3MiOjI6e3M6NzoicHJvZHVjdCI7Tzo4OiJzdGRDbGFzcyI6MTp7czoxNjoiZmlsdGVyX29yZGVyX0RpciI7czo0OiJERVNDIjt9czo0OiJlZGl0IjtPOjg6InN0ZENsYXNzIjoxOntzOjE2OiJmaWx0ZXJfb3JkZXJfRGlyIjtzOjQ6IkRFU0MiO319fXM6MTQ6IgAqAGluaXRpYWxpemVkIjtiOjA7czo5OiJzZXBhcmF0b3IiO3M6MToiLiI7fXM6NDoidXNlciI7TzoyMDoiSm9vbWxhXENNU1xVc2VyXFVzZXIiOjE6e3M6MjoiaWQiO3M6MzoiNTc4Ijt9fX1zOjE0OiIAKgBpbml0aWFsaXplZCI7YjowO3M6OToic2VwYXJhdG9yIjtzOjE6Ii4iO30=\";', 578, 'thanhphongtran');
+('p2u32vsuc4s066f2v36ue1g4hg', 0, 1, '1514736328', 'joomla|s:2060:\"TzoyNDoiSm9vbWxhXFJlZ2lzdHJ5XFJlZ2lzdHJ5IjozOntzOjc6IgAqAGRhdGEiO086ODoic3RkQ2xhc3MiOjI6e3M6OToiX19kZWZhdWx0IjtPOjg6InN0ZENsYXNzIjo0OntzOjc6InNlc3Npb24iO086ODoic3RkQ2xhc3MiOjM6e3M6NzoiY291bnRlciI7aTo1O3M6NToidGltZXIiO086ODoic3RkQ2xhc3MiOjM6e3M6NToic3RhcnQiO2k6MTUxNDczMzU3MjtzOjQ6Imxhc3QiO2k6MTUxNDczNjI3NztzOjM6Im5vdyI7aToxNTE0NzM2MzI3O31zOjU6InRva2VuIjtzOjMyOiJLNHRiQ3FXUnJqbUptMlpuWEZHemtpMGozc1Y0QU9IMCI7fXM6ODoicmVnaXN0cnkiO086MjQ6Ikpvb21sYVxSZWdpc3RyeVxSZWdpc3RyeSI6Mzp7czo3OiIAKgBkYXRhIjtPOjg6InN0ZENsYXNzIjowOnt9czoxNDoiACoAaW5pdGlhbGl6ZWQiO2I6MDtzOjk6InNlcGFyYXRvciI7czoxOiIuIjt9czo0OiJ1c2VyIjtPOjIwOiJKb29tbGFcQ01TXFVzZXJcVXNlciI6MTp7czoyOiJpZCI7aTowO31zOjEwOiJjb21fbWFpbHRvIjtPOjg6InN0ZENsYXNzIjoxOntzOjU6ImxpbmtzIjthOjE6e3M6NDA6Ijc2NzA2ZjFjZmNiZGI5MjgyZDZmODg1ZTUzNzIyNDYwOTg1NzVjZDEiO086ODoic3RkQ2xhc3MiOjI6e3M6NDoibGluayI7czo0ODoiaHR0cDovL2xvY2FsaG9zdC9WaXJ0dWVNYXJ0Sm9vbWxhL2luZGV4LnBocC9uZXdzIjtzOjY6ImV4cGlyeSI7aToxNTE0NzM2MzI4O319fX1zOjQ6Il9fdm0iO086ODoic3RkQ2xhc3MiOjY6e3M6NjoibWFuYWdlIjtpOjA7czoxOToidm1sYXN0dmlzaXRlZEl0ZW1pZCI7aToxMDE7czoyMzoidm1sYXN0dmlzaXRlZGNhdGVnb3J5aWQiO2k6NDtzOjE5OiJ2bWxhc3R2aXNpdGVkbWFudWlkIjtpOjA7czo2OiJ2bWNhcnQiO3M6NTY0OiJ7ImNhcnRQcm9kdWN0c0RhdGEiOltdLCJ2ZW5kb3JJZCI6MCwibGFzdFZpc2l0ZWRDYXRlZ29yeUlkIjowLCJ2aXJ0dWVtYXJ0X3NoaXBtZW50bWV0aG9kX2lkIjowLCJ2aXJ0dWVtYXJ0X3BheW1lbnRtZXRob2RfaWQiOjAsImF1dG9tYXRpY1NlbGVjdGVkU2hpcG1lbnQiOmZhbHNlLCJhdXRvbWF0aWNTZWxlY3RlZFBheW1lbnQiOmZhbHNlLCJvcmRlcl9udW1iZXIiOm51bGwsIkJUIjowLCJTVCI6MCwiY2FydGZpZWxkcyI6bnVsbCwiY291cG9uQ29kZSI6IiIsIl90cmllc1ZhbGlkYXRlQ291cG9uIjpbXSwib3JkZXJfbGFuZ3VhZ2UiOiJlbi1HQiIsInByaWNlc0N1cnJlbmN5IjoiMTQ0IiwicGF5bWVudEN1cnJlbmN5IjpudWxsLCJfZ3Vlc3QiOjEsIl9pbkNoZWNrT3V0IjpmYWxzZSwiX2luQ29uZmlybSI6ZmFsc2UsIl9kYXRhVmFsaWRhdGVkIjpmYWxzZSwiX2NvbmZpcm1Eb25lIjpmYWxzZSwiU1RzYW1lQXNCVCI6MSwic2VsZWN0ZWRfc2hpcHRvIjowLCJfZnJvbUNhcnQiOmZhbHNlLCJsYXlvdXQiOiJkZWZhdWx0IiwibGF5b3V0UGF0aCI6IiIsInZpcnR1ZW1hcnRfY2FydF9pZCI6MH0iO3M6MjM6InZtbGFzdHZpc2l0ZWRwcm9kdWN0aWRzIjthOjE6e2k6MDtpOjEzO319fXM6MTQ6IgAqAGluaXRpYWxpemVkIjtiOjA7czo5OiJzZXBhcmF0b3IiO3M6MToiLiI7fQ==\";', 0, '');
 
 -- --------------------------------------------------------
 
@@ -3669,7 +3919,8 @@ CREATE TABLE `rqewn_ucm_history` (
 --
 
 INSERT INTO `rqewn_ucm_history` (`version_id`, `ucm_item_id`, `ucm_type_id`, `version_note`, `save_date`, `editor_user_id`, `character_count`, `sha1_hash`, `version_data`, `keep_forever`) VALUES
-(1, 1, 1, '', '2017-12-26 07:08:57', 578, 1970, '1b2a581de7179c45e9a671658ad6fdb697170458', '{\"id\":1,\"asset_id\":65,\"title\":\"Sample Company\",\"alias\":\"sample-company\",\"introtext\":\"<div class=\\\"vendor-description\\\">Mr Doe John<br \\/>PO Box 123<br \\/>98101 Seattle<br \\/>Germany<br \\/>Freistaat Sachsen<br \\/>555-555-555<br \\/>DE279592082<\\/div>\\r\\n<p>VAT-ID: XYZ-DEMO<br \\/>Reg.Nr: DEMONUMBER<\\/p>\",\"fulltext\":\"\",\"state\":1,\"catid\":\"2\",\"created\":\"2017-12-26 07:08:57\",\"created_by\":\"578\",\"created_by_alias\":\"\",\"modified\":\"2017-12-26 07:08:57\",\"modified_by\":null,\"checked_out\":null,\"checked_out_time\":null,\"publish_up\":\"2017-12-26 07:08:57\",\"publish_down\":\"0000-00-00 00:00:00\",\"images\":\"{\\\"image_intro\\\":\\\"\\\",\\\"float_intro\\\":\\\"\\\",\\\"image_intro_alt\\\":\\\"\\\",\\\"image_intro_caption\\\":\\\"\\\",\\\"image_fulltext\\\":\\\"\\\",\\\"float_fulltext\\\":\\\"\\\",\\\"image_fulltext_alt\\\":\\\"\\\",\\\"image_fulltext_caption\\\":\\\"\\\"}\",\"urls\":\"{\\\"urla\\\":false,\\\"urlatext\\\":\\\"\\\",\\\"targeta\\\":\\\"\\\",\\\"urlb\\\":false,\\\"urlbtext\\\":\\\"\\\",\\\"targetb\\\":\\\"\\\",\\\"urlc\\\":false,\\\"urlctext\\\":\\\"\\\",\\\"targetc\\\":\\\"\\\"}\",\"attribs\":\"{\\\"article_layout\\\":\\\"\\\",\\\"show_title\\\":\\\"\\\",\\\"link_titles\\\":\\\"\\\",\\\"show_tags\\\":\\\"\\\",\\\"show_intro\\\":\\\"\\\",\\\"info_block_position\\\":\\\"\\\",\\\"info_block_show_title\\\":\\\"\\\",\\\"show_category\\\":\\\"\\\",\\\"link_category\\\":\\\"\\\",\\\"show_parent_category\\\":\\\"\\\",\\\"link_parent_category\\\":\\\"\\\",\\\"show_associations\\\":\\\"\\\",\\\"show_author\\\":\\\"\\\",\\\"link_author\\\":\\\"\\\",\\\"show_create_date\\\":\\\"\\\",\\\"show_modify_date\\\":\\\"\\\",\\\"show_publish_date\\\":\\\"\\\",\\\"show_item_navigation\\\":\\\"\\\",\\\"show_icons\\\":\\\"\\\",\\\"show_print_icon\\\":\\\"\\\",\\\"show_email_icon\\\":\\\"\\\",\\\"show_vote\\\":\\\"\\\",\\\"show_hits\\\":\\\"\\\",\\\"show_noauth\\\":\\\"\\\",\\\"urls_position\\\":\\\"\\\",\\\"alternative_readmore\\\":\\\"\\\",\\\"article_page_title\\\":\\\"\\\",\\\"show_publishing_options\\\":\\\"\\\",\\\"show_article_options\\\":\\\"\\\",\\\"show_urls_images_backend\\\":\\\"\\\",\\\"show_urls_images_frontend\\\":\\\"\\\"}\",\"version\":1,\"ordering\":null,\"metakey\":\"\",\"metadesc\":\"\",\"access\":\"1\",\"hits\":null,\"metadata\":\"{\\\"robots\\\":\\\"\\\",\\\"author\\\":\\\"\\\",\\\"rights\\\":\\\"\\\",\\\"xreference\\\":\\\"\\\"}\",\"featured\":\"0\",\"language\":\"*\",\"xreference\":\"\"}', 0);
+(1, 1, 1, '', '2017-12-26 07:08:57', 578, 1970, '1b2a581de7179c45e9a671658ad6fdb697170458', '{\"id\":1,\"asset_id\":65,\"title\":\"Sample Company\",\"alias\":\"sample-company\",\"introtext\":\"<div class=\\\"vendor-description\\\">Mr Doe John<br \\/>PO Box 123<br \\/>98101 Seattle<br \\/>Germany<br \\/>Freistaat Sachsen<br \\/>555-555-555<br \\/>DE279592082<\\/div>\\r\\n<p>VAT-ID: XYZ-DEMO<br \\/>Reg.Nr: DEMONUMBER<\\/p>\",\"fulltext\":\"\",\"state\":1,\"catid\":\"2\",\"created\":\"2017-12-26 07:08:57\",\"created_by\":\"578\",\"created_by_alias\":\"\",\"modified\":\"2017-12-26 07:08:57\",\"modified_by\":null,\"checked_out\":null,\"checked_out_time\":null,\"publish_up\":\"2017-12-26 07:08:57\",\"publish_down\":\"0000-00-00 00:00:00\",\"images\":\"{\\\"image_intro\\\":\\\"\\\",\\\"float_intro\\\":\\\"\\\",\\\"image_intro_alt\\\":\\\"\\\",\\\"image_intro_caption\\\":\\\"\\\",\\\"image_fulltext\\\":\\\"\\\",\\\"float_fulltext\\\":\\\"\\\",\\\"image_fulltext_alt\\\":\\\"\\\",\\\"image_fulltext_caption\\\":\\\"\\\"}\",\"urls\":\"{\\\"urla\\\":false,\\\"urlatext\\\":\\\"\\\",\\\"targeta\\\":\\\"\\\",\\\"urlb\\\":false,\\\"urlbtext\\\":\\\"\\\",\\\"targetb\\\":\\\"\\\",\\\"urlc\\\":false,\\\"urlctext\\\":\\\"\\\",\\\"targetc\\\":\\\"\\\"}\",\"attribs\":\"{\\\"article_layout\\\":\\\"\\\",\\\"show_title\\\":\\\"\\\",\\\"link_titles\\\":\\\"\\\",\\\"show_tags\\\":\\\"\\\",\\\"show_intro\\\":\\\"\\\",\\\"info_block_position\\\":\\\"\\\",\\\"info_block_show_title\\\":\\\"\\\",\\\"show_category\\\":\\\"\\\",\\\"link_category\\\":\\\"\\\",\\\"show_parent_category\\\":\\\"\\\",\\\"link_parent_category\\\":\\\"\\\",\\\"show_associations\\\":\\\"\\\",\\\"show_author\\\":\\\"\\\",\\\"link_author\\\":\\\"\\\",\\\"show_create_date\\\":\\\"\\\",\\\"show_modify_date\\\":\\\"\\\",\\\"show_publish_date\\\":\\\"\\\",\\\"show_item_navigation\\\":\\\"\\\",\\\"show_icons\\\":\\\"\\\",\\\"show_print_icon\\\":\\\"\\\",\\\"show_email_icon\\\":\\\"\\\",\\\"show_vote\\\":\\\"\\\",\\\"show_hits\\\":\\\"\\\",\\\"show_noauth\\\":\\\"\\\",\\\"urls_position\\\":\\\"\\\",\\\"alternative_readmore\\\":\\\"\\\",\\\"article_page_title\\\":\\\"\\\",\\\"show_publishing_options\\\":\\\"\\\",\\\"show_article_options\\\":\\\"\\\",\\\"show_urls_images_backend\\\":\\\"\\\",\\\"show_urls_images_frontend\\\":\\\"\\\"}\",\"version\":1,\"ordering\":null,\"metakey\":\"\",\"metadesc\":\"\",\"access\":\"1\",\"hits\":null,\"metadata\":\"{\\\"robots\\\":\\\"\\\",\\\"author\\\":\\\"\\\",\\\"rights\\\":\\\"\\\",\\\"xreference\\\":\\\"\\\"}\",\"featured\":\"0\",\"language\":\"*\",\"xreference\":\"\"}', 0),
+(2, 2, 1, '', '2017-12-31 13:55:56', 578, 1989, '41561a3195d8204d838a3451fd69b300c67eee6e', '{\"id\":2,\"asset_id\":66,\"title\":\"Information\",\"alias\":\"information\",\"introtext\":\"<div class=\\\"vendor-description\\\">Sample Company<br \\/>Mr Doe John<br \\/>PO Box 123<br \\/>98101 Seattle<br \\/>Germany<br \\/>Freistaat Sachsen<br \\/>555-555-555<br \\/>DE279592082<\\/div>\\r\\n<p>VAT-ID: XYZ-DEMO<br \\/>Reg.Nr: DEMONUMBER<\\/p>\",\"fulltext\":\"\",\"state\":1,\"catid\":\"2\",\"created\":\"2017-12-31 13:55:56\",\"created_by\":\"578\",\"created_by_alias\":\"\",\"modified\":\"2017-12-31 13:55:56\",\"modified_by\":null,\"checked_out\":null,\"checked_out_time\":null,\"publish_up\":\"2017-12-31 13:55:56\",\"publish_down\":\"0000-00-00 00:00:00\",\"images\":\"{\\\"image_intro\\\":\\\"\\\",\\\"float_intro\\\":\\\"\\\",\\\"image_intro_alt\\\":\\\"\\\",\\\"image_intro_caption\\\":\\\"\\\",\\\"image_fulltext\\\":\\\"\\\",\\\"float_fulltext\\\":\\\"\\\",\\\"image_fulltext_alt\\\":\\\"\\\",\\\"image_fulltext_caption\\\":\\\"\\\"}\",\"urls\":\"{\\\"urla\\\":false,\\\"urlatext\\\":\\\"\\\",\\\"targeta\\\":\\\"\\\",\\\"urlb\\\":false,\\\"urlbtext\\\":\\\"\\\",\\\"targetb\\\":\\\"\\\",\\\"urlc\\\":false,\\\"urlctext\\\":\\\"\\\",\\\"targetc\\\":\\\"\\\"}\",\"attribs\":\"{\\\"article_layout\\\":\\\"\\\",\\\"show_title\\\":\\\"\\\",\\\"link_titles\\\":\\\"\\\",\\\"show_tags\\\":\\\"\\\",\\\"show_intro\\\":\\\"\\\",\\\"info_block_position\\\":\\\"\\\",\\\"info_block_show_title\\\":\\\"\\\",\\\"show_category\\\":\\\"\\\",\\\"link_category\\\":\\\"\\\",\\\"show_parent_category\\\":\\\"\\\",\\\"link_parent_category\\\":\\\"\\\",\\\"show_associations\\\":\\\"\\\",\\\"show_author\\\":\\\"\\\",\\\"link_author\\\":\\\"\\\",\\\"show_create_date\\\":\\\"\\\",\\\"show_modify_date\\\":\\\"\\\",\\\"show_publish_date\\\":\\\"\\\",\\\"show_item_navigation\\\":\\\"\\\",\\\"show_icons\\\":\\\"\\\",\\\"show_print_icon\\\":\\\"\\\",\\\"show_email_icon\\\":\\\"\\\",\\\"show_vote\\\":\\\"\\\",\\\"show_hits\\\":\\\"\\\",\\\"show_noauth\\\":\\\"\\\",\\\"urls_position\\\":\\\"\\\",\\\"alternative_readmore\\\":\\\"\\\",\\\"article_page_title\\\":\\\"\\\",\\\"show_publishing_options\\\":\\\"\\\",\\\"show_article_options\\\":\\\"\\\",\\\"show_urls_images_backend\\\":\\\"\\\",\\\"show_urls_images_frontend\\\":\\\"\\\"}\",\"version\":1,\"ordering\":null,\"metakey\":\"\",\"metadesc\":\"\",\"access\":\"1\",\"hits\":null,\"metadata\":\"{\\\"robots\\\":\\\"\\\",\\\"author\\\":\\\"\\\",\\\"rights\\\":\\\"\\\",\\\"xreference\\\":\\\"\\\"}\",\"featured\":\"1\",\"language\":\"en-GB\",\"xreference\":\"\"}', 0);
 
 -- --------------------------------------------------------
 
@@ -3694,6 +3945,15 @@ CREATE TABLE `rqewn_updates` (
   `extra_query` varchar(1000) COLLATE utf8mb4_unicode_ci DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Available Updates';
 
+--
+-- Dumping data for table `rqewn_updates`
+--
+
+INSERT INTO `rqewn_updates` (`update_id`, `update_site_id`, `extension_id`, `name`, `description`, `element`, `type`, `folder`, `client_id`, `version`, `data`, `detailsurl`, `infourl`, `extra_query`) VALUES
+(1, 1, 700, 'Joomla', '', 'joomla', 'file', '', 0, '3.8.3', '', 'https://update.joomla.org/core/sts/extension_sts.xml', '', ''),
+(2, 4, 10000, 'VirtueMart', 'VirtueMart Component', 'com_virtuemart', 'component', '', 1, '3.2.12', '', 'http://virtuemart.net/releases/vm3/virtuemart_update.xml', 'https://virtuemart.net/news/487-just-a-hotfix-update', ''),
+(3, 33, 10001, 'VirtueMart AIO', 'VirtueMart AIO Component', 'com_virtuemart_allinone', 'component', '', 1, '3.2.12', '', 'http://virtuemart.net/releases/vm3/virtuemart_aio_update.xml', 'https://virtuemart.net/news/487-just-a-hotfix-update', '');
+
 -- --------------------------------------------------------
 
 --
@@ -3715,40 +3975,40 @@ CREATE TABLE `rqewn_update_sites` (
 --
 
 INSERT INTO `rqewn_update_sites` (`update_site_id`, `name`, `type`, `location`, `enabled`, `last_check_timestamp`, `extra_query`) VALUES
-(1, 'Joomla! Core', 'collection', 'https://update.joomla.org/core/list.xml', 1, 1514361290, ''),
+(1, 'Joomla! Core', 'collection', 'https://update.joomla.org/core/list.xml', 1, 1514729647, ''),
 (2, 'Accredited Joomla! Translations', 'collection', 'https://update.joomla.org/language/translationlist_3.xml', 0, 0, ''),
 (3, 'Joomla! Update Component Update Site', 'extension', 'https://update.joomla.org/core/extensions/com_joomlaupdate.xml', 0, 0, ''),
-(4, 'VirtueMart3 Update Site', 'extension', 'http://virtuemart.net/releases/vm3/virtuemart_update.xml', 1, 1514361304, ''),
+(4, 'VirtueMart3 Update Site', 'extension', 'http://virtuemart.net/releases/vm3/virtuemart_update.xml', 1, 1514729648, ''),
 (5, 'VirtueMart plg_vmpayment_standard Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_standard_update.xml', 0, 0, ''),
 (6, 'VirtueMart plg_vmpayment_klarna Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_klarna_update.xml', 0, 0, ''),
-(7, 'VirtueMart plg_vmpayment_klarnacheckout Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_klarnacheckout_update.xml', 1, 0, ''),
-(8, 'VirtueMart plg_vmpayment_sofort Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_sofort_update.xml', 1, 0, ''),
-(9, 'VirtueMart plg_vmpayment_paypal Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_paypal_update.xml', 1, 0, ''),
-(10, 'VirtueMart plg_vmpayment_heidelpay Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_heidelpay_update.xml', 1, 0, ''),
-(11, 'VirtueMart plg_vmpayment_paybox Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_paybox_update.xml', 1, 0, ''),
-(12, 'VirtueMart3 plg_vmpayment_tco Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_tco_update.xml', 1, 0, ''),
-(13, 'VirtueMart plg_vmpayment_amazon Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_amazon_update.xml', 1, 0, ''),
+(7, 'VirtueMart plg_vmpayment_klarnacheckout Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_klarnacheckout_update.xml', 1, 1514729649, ''),
+(8, 'VirtueMart plg_vmpayment_sofort Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_sofort_update.xml', 1, 1514729649, ''),
+(9, 'VirtueMart plg_vmpayment_paypal Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_paypal_update.xml', 1, 1514729650, ''),
+(10, 'VirtueMart plg_vmpayment_heidelpay Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_heidelpay_update.xml', 1, 1514729651, ''),
+(11, 'VirtueMart plg_vmpayment_paybox Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_paybox_update.xml', 1, 1514729652, ''),
+(12, 'VirtueMart3 plg_vmpayment_tco Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_tco_update.xml', 1, 1514729652, ''),
+(13, 'VirtueMart plg_vmpayment_amazon Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_amazon_update.xml', 1, 1514729653, ''),
 (14, 'VirtueMart plg_system_amazon Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_system_amazon_update.xml', 1, 0, ''),
-(15, 'VirtueMart plg_vmpayment_realex_hpp_api Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_realex_hpp_api_update.xml', 1, 0, ''),
-(16, 'VirtueMart plg_vmuserfield_realex_hpp_api Update Site', 'extension', '\n            http://virtuemart.net/releases/vm3/plg_vmuserfield_realex_hpp_api_update.xml', 1, 0, ''),
-(17, 'VirtueMart3 plg_vmpayment_skrill Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_skrill_update.xml', 1, 0, ''),
-(18, 'VirtueMart plg_vmpayment_authorizenet Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_authorisenet_update.xml', 1, 0, ''),
-(19, 'VirtueMart plg_vmpayment_sofort_ideal Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_sofort_ideal_update.xml', 1, 0, ''),
-(20, 'VirtueMart plg_vmpayment_klikandpay Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_klikandpay_update.xml', 1, 0, ''),
+(15, 'VirtueMart plg_vmpayment_realex_hpp_api Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_realex_hpp_api_update.xml', 1, 1514729654, ''),
+(16, 'VirtueMart plg_vmuserfield_realex_hpp_api Update Site', 'extension', '\n            http://virtuemart.net/releases/vm3/plg_vmuserfield_realex_hpp_api_update.xml', 1, 1514729654, ''),
+(17, 'VirtueMart3 plg_vmpayment_skrill Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_skrill_update.xml', 1, 1514729655, ''),
+(18, 'VirtueMart plg_vmpayment_authorizenet Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_authorisenet_update.xml', 1, 1514729656, ''),
+(19, 'VirtueMart plg_vmpayment_sofort_ideal Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_sofort_ideal_update.xml', 0, 0, ''),
+(20, 'VirtueMart plg_vmpayment_klikandpay Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmpayment_klikandpay_update.xml', 1, 1514729657, ''),
 (21, 'VirtueMart3 plg_vmshipment_weight_countries Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmshipment_weight_countries_update.xml', 0, 0, ''),
-(22, 'VirtueMart3 plg_vmcustom_textinput Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmcustom_textinput_update.xml', 1, 0, ''),
-(23, 'VirtueMart3 plg_vmcustom_specification Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmcustom_specification_update.xml', 1, 0, ''),
-(24, 'VirtueMart3 plg_vmcalculation_avalara Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmcalculation_avalara_update.xml', 1, 0, ''),
+(22, 'VirtueMart3 plg_vmcustom_textinput Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmcustom_textinput_update.xml', 1, 1514729657, ''),
+(23, 'VirtueMart3 plg_vmcustom_specification Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmcustom_specification_update.xml', 1, 1514729658, ''),
+(24, 'VirtueMart3 plg_vmcalculation_avalara Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_vmcalculation_avalara_update.xml', 0, 0, ''),
 (25, 'VirtueMart3 plg_search_virtuemart Update Site', 'extension', 'http://virtuemart.net/releases/vm3/plg_search_virtuemart_update.xml', 0, 0, ''),
-(26, 'VirtueMart3 MOD_VMENU Update Site', 'extension', 'http://virtuemart.net/releases/vm3/mod_vmmenu_update.xml', 1, 0, ''),
-(27, 'VirtueMart3 mod_virtuemart_currencies Update Site', 'extension', 'http://virtuemart.net/releases/vm3/mod_virtuemart_currencies_update.xml', 1, 0, ''),
-(28, 'VirtueMart3 mod_virtuemart_product Update Site', 'extension', 'http://virtuemart.net/releases/vm3/mod_virtuemart_product_update.xml', 1, 0, ''),
-(29, 'VirtueMart3 mod_virtuemart_search Update Site', 'extension', 'http://virtuemart.net/releases/vm3/mod_virtuemart_search_update.xml', 1, 0, ''),
-(30, 'VirtueMart3 mod_virtuemart_manufacturer Update Site', 'extension', 'http://virtuemart.net/releases/vm3/mod_virtuemart_manufacturer_update.xml', 1, 0, ''),
-(31, 'VirtueMart3 mod_virtuemart_cart Update Site', 'extension', 'http://virtuemart.net/releases/vm3/mod_virtuemart_cart_update.xml', 1, 0, ''),
-(32, 'VirtueMart3 mod_virtuemart_category Update Site', 'extension', 'http://virtuemart.net/releases/vm3/mod_virtuemart_category_update.xml', 1, 0, ''),
-(33, 'VirtueMart3 AIO Update Site', 'extension', 'http://virtuemart.net/releases/vm3/virtuemart_aio_update.xml', 1, 0, ''),
-(34, 'TCPDF Update Site', 'extension', 'http://virtuemart.net/releases/TCPDF/tcpdf.xml', 1, 0, ''),
+(26, 'VirtueMart3 MOD_VMENU Update Site', 'extension', 'http://virtuemart.net/releases/vm3/mod_vmmenu_update.xml', 1, 1514729659, ''),
+(27, 'VirtueMart3 mod_virtuemart_currencies Update Site', 'extension', 'http://virtuemart.net/releases/vm3/mod_virtuemart_currencies_update.xml', 1, 1514729660, ''),
+(28, 'VirtueMart3 mod_virtuemart_product Update Site', 'extension', 'http://virtuemart.net/releases/vm3/mod_virtuemart_product_update.xml', 0, 0, ''),
+(29, 'VirtueMart3 mod_virtuemart_search Update Site', 'extension', 'http://virtuemart.net/releases/vm3/mod_virtuemart_search_update.xml', 1, 1514729661, ''),
+(30, 'VirtueMart3 mod_virtuemart_manufacturer Update Site', 'extension', 'http://virtuemart.net/releases/vm3/mod_virtuemart_manufacturer_update.xml', 1, 1514729661, ''),
+(31, 'VirtueMart3 mod_virtuemart_cart Update Site', 'extension', 'http://virtuemart.net/releases/vm3/mod_virtuemart_cart_update.xml', 1, 1514729662, ''),
+(32, 'VirtueMart3 mod_virtuemart_category Update Site', 'extension', 'http://virtuemart.net/releases/vm3/mod_virtuemart_category_update.xml', 1, 1514729663, ''),
+(33, 'VirtueMart3 AIO Update Site', 'extension', 'http://virtuemart.net/releases/vm3/virtuemart_aio_update.xml', 1, 1514729663, ''),
+(34, 'TCPDF Update Site', 'extension', 'http://virtuemart.net/releases/TCPDF/tcpdf.xml', 1, 1514729664, ''),
 (35, 'VM Framework Loader during Plugin Updates', 'extension', 'http://virtuemart.net/releases/vm3/plg_system_vmLoaderPluginUpdate_update.xml', 0, 0, '');
 
 -- --------------------------------------------------------
@@ -3862,7 +4122,7 @@ CREATE TABLE `rqewn_users` (
 --
 
 INSERT INTO `rqewn_users` (`id`, `name`, `username`, `email`, `password`, `block`, `sendEmail`, `registerDate`, `lastvisitDate`, `activation`, `params`, `lastResetTime`, `resetCount`, `otpKey`, `otep`, `requireReset`) VALUES
-(578, 'TRAN THANH PHONG', 'thanhphongtran', 'thanhphong190@gmail.com', '$2y$10$QfDeVVZeEc1wGZ6cvSQ4SuNQlKa.TF9V.mcV.G7qUXFolCRQ2Y8P2', 0, 1, '2017-12-12 14:30:17', '2017-12-27 07:53:00', '0', '{}', '0000-00-00 00:00:00', 0, '', '', 0),
+(578, 'TRAN THANH PHONG', 'thanhphongtran', 'thanhphong190@gmail.com', '$2y$10$QfDeVVZeEc1wGZ6cvSQ4SuNQlKa.TF9V.mcV.G7qUXFolCRQ2Y8P2', 0, 1, '2017-12-12 14:30:17', '2017-12-31 13:33:31', '0', '{}', '0000-00-00 00:00:00', 0, '', '', 0),
 (579, 'TRAN THANH PHONG', 'ewew', 'thanhphong19038@gmail.com', '$2y$10$H00xn3d2E5SqB1kusEK6Cep1e2kY7UFTBzSfWeQ8fbLRsNS5tXuIy', 0, 0, '2017-12-16 10:05:31', '0000-00-00 00:00:00', '', '{\"language\":\"en-US\"}', '0000-00-00 00:00:00', 0, '', '', 0);
 
 -- --------------------------------------------------------
@@ -5294,7 +5554,7 @@ CREATE TABLE `rqewn_virtuemart_paymentmethods` (
 --
 
 INSERT INTO `rqewn_virtuemart_paymentmethods` (`virtuemart_paymentmethod_id`, `virtuemart_vendor_id`, `payment_jplugin_id`, `payment_element`, `payment_params`, `currency_id`, `shared`, `ordering`, `published`, `created_on`, `created_by`, `modified_on`, `modified_by`, `locked_on`, `locked_by`) VALUES
-(1, 1, 10006, 'paypal', 'paypal_merchant_email=\"thanhphong190@gmail.com\"|accelerated_onboarding=\"0\"|api_login_id=\"\"|api_password=\"\"|authentication=\"signature\"|api_signature=\"\"|api_certificate=\"0\"|sandbox=\"0\"|sandbox_merchant_email=\"\"|sandbox_api_login_id=\"\"|sandbox_api_password=\"\"|sandbox_api_signature=\"\"|sandbox_api_certificate=\"0\"|sandbox_payflow_vendor=\"\"|sandbox_payflow_partner=\"PayPal\"|payflow_vendor=\"\"|payflow_partner=\"\"|creditcards=\"\"|cvv_required=\"1\"|cvv_images=\"\"|paypalproduct=\"std\"|paypal_verified_only=\"\"|payment_currency=\"0\"|email_currency=\"vendor\"|log_ipn=\"\"|payment_logos=\"\"|debug=\"0\"|log=\"0\"|status_pending=\"U\"|status_success=\"C\"|status_canceled=\"X\"|status_expired=\"\"|status_capture=\"S\"|status_refunded=\"R\"|status_denied=\"D\"|status_partial_refunded=\"R\"|expected_maxamount=\"\"|secure_post=\"\"|ipn_test=\"\"|no_shipping=\"2\"|address_override=\"1\"|payment_type=\"_xclick\"|subcription_trials=0|trial1_price=\"\"|trial1_duration=\"\"|subscription_duration=\"\"|subscription_term=\"\"|payment_plan_duration=\"\"|payment_plan_term=\"\"|payment_plan_defer=\"\"|payment_plan_defer_duration=\"\"|payment_plan_defer_strtotime=\"\"|billing_max_amount_type=\"cart\"|billing_max_amount=\"\"|sftp_login=\"\"|sftp_password=\"\"|sftp_host=\"\"|sftp_sandbox_login=\"\"|sftp_sandbox_password=\"\"|countries=[\n    \"223\"\n]|min_amount=\"\"|max_amount=\"\"|publishup=\"2017-12-16\"|publishdown=\"2017-12-22\"|virtuemart_shipmentmethod_ids=\"\"|cost_per_transaction=\"\"|cost_percent_total=\"\"|cost_method=\"1\"|tax_id=\"0\"|headerBgColor=\"\"|headerHeight=\"\"|logoFont=\"\"|logoFontColor=\"\"|logoFontSize=\"\"|bodyBgImg=\"\"|bodyBgColor=\"\"|PageTitleTextColor=\"\"|PageCollapseBgColor=\"\"|PageCollapseTextColor=\"\"|orderSummaryBgColor=\"\"|orderSummaryBgImage=\"\"|footerTextColor=\"\"|footerTextlinkColor=\"\"|pageButtonBgColor=\"\"|pageButtonTextColor=\"\"|pageTitleTextColor=\"\"|sectionBorder=\"\"|bordercolor=\"\"|headerimg=\"-1\"|logoimg=\"\"|payment_action=\"Sale\"|template=\"templateA\"|add_prices_api=\"0\"|offer_credit=\"0\"|itemise_in_cart=\"0\"|', 144, 0, 0, 1, '2017-12-16 10:14:59', 578, '2017-12-26 07:43:32', 578, '0000-00-00 00:00:00', 0);
+(1, 1, 10006, 'paypal', 'paypal_merchant_email=\"thanhphong190@gmail.com\"|accelerated_onboarding=\"0\"|api_login_id=\"\"|api_password=\"\"|authentication=\"signature\"|api_signature=\"\"|api_certificate=\"0\"|sandbox=\"0\"|sandbox_merchant_email=\"\"|sandbox_api_login_id=\"\"|sandbox_api_password=\"\"|sandbox_api_signature=\"\"|sandbox_api_certificate=\"0\"|sandbox_payflow_vendor=\"\"|sandbox_payflow_partner=\"PayPal\"|payflow_vendor=\"\"|payflow_partner=\"\"|creditcards=\"\"|cvv_required=\"1\"|cvv_images=\"\"|paypalproduct=\"std\"|paypal_verified_only=\"\"|payment_currency=\"0\"|email_currency=\"vendor\"|log_ipn=\"\"|payment_logos=\"\"|debug=\"0\"|log=\"0\"|status_pending=\"U\"|status_success=\"C\"|status_canceled=\"X\"|status_expired=\"\"|status_capture=\"S\"|status_refunded=\"R\"|status_denied=\"D\"|status_partial_refunded=\"R\"|expected_maxamount=\"\"|secure_post=\"\"|ipn_test=\"\"|no_shipping=\"2\"|address_override=\"1\"|payment_type=\"_xclick\"|subcription_trials=0|trial1_price=\"\"|trial1_duration=\"\"|subscription_duration=\"\"|subscription_term=\"\"|payment_plan_duration=\"\"|payment_plan_term=\"\"|payment_plan_defer=\"\"|payment_plan_defer_duration=\"\"|payment_plan_defer_strtotime=\"\"|billing_max_amount_type=\"cart\"|billing_max_amount=\"\"|sftp_login=\"\"|sftp_password=\"\"|sftp_host=\"\"|sftp_sandbox_login=\"\"|sftp_sandbox_password=\"\"|countries=[\n    \"223\"\n]|min_amount=\"\"|max_amount=\"\"|publishup=\"\"|publishdown=\"\"|virtuemart_shipmentmethod_ids=[\n    \"1\",\n    \"2\"\n]|cost_per_transaction=\"\"|cost_percent_total=\"\"|cost_method=\"1\"|tax_id=\"0\"|headerBgColor=\"\"|headerHeight=\"\"|logoFont=\"\"|logoFontColor=\"\"|logoFontSize=\"\"|bodyBgImg=\"\"|bodyBgColor=\"\"|PageTitleTextColor=\"\"|PageCollapseBgColor=\"\"|PageCollapseTextColor=\"\"|orderSummaryBgColor=\"\"|orderSummaryBgImage=\"\"|footerTextColor=\"\"|footerTextlinkColor=\"\"|pageButtonBgColor=\"\"|pageButtonTextColor=\"\"|pageTitleTextColor=\"\"|sectionBorder=\"\"|bordercolor=\"\"|headerimg=\"-1\"|logoimg=\"\"|payment_action=\"Sale\"|template=\"templateA\"|add_prices_api=\"0\"|offer_credit=\"0\"|itemise_in_cart=\"0\"|', 144, 0, 0, 1, '2017-12-16 10:14:59', 578, '2017-12-31 14:39:22', 578, '0000-00-00 00:00:00', 0);
 
 -- --------------------------------------------------------
 
@@ -5327,6 +5587,14 @@ CREATE TABLE `rqewn_virtuemart_paymentmethod_shoppergroups` (
   `virtuemart_paymentmethod_id` int(1) UNSIGNED NOT NULL DEFAULT '0',
   `virtuemart_shoppergroup_id` int(1) UNSIGNED NOT NULL DEFAULT '0'
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='xref table for paymentmethods to shoppergroup';
+
+--
+-- Dumping data for table `rqewn_virtuemart_paymentmethod_shoppergroups`
+--
+
+INSERT INTO `rqewn_virtuemart_paymentmethod_shoppergroups` (`id`, `virtuemart_paymentmethod_id`, `virtuemart_shoppergroup_id`) VALUES
+(1, 1, 2),
+(2, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -5766,7 +6034,8 @@ CREATE TABLE `rqewn_virtuemart_shipmentmethods` (
 --
 
 INSERT INTO `rqewn_virtuemart_shipmentmethods` (`virtuemart_shipmentmethod_id`, `virtuemart_vendor_id`, `shipment_jplugin_id`, `shipment_element`, `shipment_params`, `currency_id`, `ordering`, `shared`, `published`, `created_on`, `created_by`, `modified_on`, `modified_by`, `locked_on`, `locked_by`) VALUES
-(1, 1, 10018, 'weight_countries', 'shipment_logos=\"\"|show_on_pdetails=\"1\"|categories=[\n    \"2\",\n    \"5\",\n    \"4\",\n    \"3\",\n    \"1\"\n]|blocking_categories=\"\"|countries=[\n    \"223\",\n    \"230\"\n]|zip_start=\"\"|zip_stop=\"\"|weight_start=\"\"|weight_stop=\"\"|weight_unit=\"KG\"|nbproducts_start=0|nbproducts_stop=0|orderamount_start=\"\"|orderamount_stop=\"\"|shipment_cost=\"5\"|package_fee=\"2\"|tax_id=\"0\"|free_shipment=\"\"|', 144, 0, 0, 1, '2017-12-16 10:13:28', 578, '2017-12-26 06:42:31', 578, '0000-00-00 00:00:00', 0);
+(1, 1, 10018, 'weight_countries', 'shipment_logos=\"\"|show_on_pdetails=\"1\"|categories=[\n    \"2\",\n    \"5\",\n    \"4\",\n    \"3\",\n    \"1\"\n]|blocking_categories=\"\"|countries=[\n    \"223\",\n    \"230\"\n]|zip_start=\"\"|zip_stop=\"\"|weight_start=\"\"|weight_stop=\"\"|weight_unit=\"KG\"|nbproducts_start=0|nbproducts_stop=0|orderamount_start=\"\"|orderamount_stop=\"\"|shipment_cost=\"5\"|package_fee=\"2\"|tax_id=\"0\"|free_shipment=\"\"|', 144, 0, 0, 1, '2017-12-16 10:13:28', 578, '2017-12-26 06:42:31', 578, '0000-00-00 00:00:00', 0),
+(2, 1, 10018, 'weight_countries', 'shipment_logos=\"\"|show_on_pdetails=\"1\"|categories=[\n    \"4\"\n]|blocking_categories=[\n    \"4\"\n]|countries=[\n    \"223\"\n]|zip_start=\"\"|zip_stop=\"\"|weight_start=\"\"|weight_stop=\"\"|weight_unit=\"KG\"|nbproducts_start=0|nbproducts_stop=0|orderamount_start=\"\"|orderamount_stop=\"\"|shipment_cost=\"0\"|package_fee=\"\"|tax_id=\"0\"|free_shipment=\"\"|', 144, 0, 0, 1, '2017-12-31 13:43:01', 578, '2017-12-31 13:44:01', 578, '0000-00-00 00:00:00', 0);
 
 -- --------------------------------------------------------
 
@@ -5786,7 +6055,8 @@ CREATE TABLE `rqewn_virtuemart_shipmentmethods_en_us` (
 --
 
 INSERT INTO `rqewn_virtuemart_shipmentmethods_en_us` (`virtuemart_shipmentmethod_id`, `shipment_name`, `shipment_desc`, `slug`) VALUES
-(1, 'TRAN THANH PHONG', '', 'tran-thanh-phong');
+(1, 'TRAN THANH PHONG', '', 'tran-thanh-phong'),
+(2, 'Nghia-Hiep', '', 'nghiahiep');
 
 -- --------------------------------------------------------
 
@@ -9075,7 +9345,7 @@ ALTER TABLE `rpoqi_viewlevels`
 -- AUTO_INCREMENT for table `rqewn_assets`
 --
 ALTER TABLE `rqewn_assets`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary Key', AUTO_INCREMENT=66;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'Primary Key', AUTO_INCREMENT=67;
 
 --
 -- AUTO_INCREMENT for table `rqewn_banners`
@@ -9105,7 +9375,7 @@ ALTER TABLE `rqewn_contact_details`
 -- AUTO_INCREMENT for table `rqewn_content`
 --
 ALTER TABLE `rqewn_content`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `rqewn_content_types`
@@ -9117,7 +9387,7 @@ ALTER TABLE `rqewn_content_types`
 -- AUTO_INCREMENT for table `rqewn_extensions`
 --
 ALTER TABLE `rqewn_extensions`
-  MODIFY `extension_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10034;
+  MODIFY `extension_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10036;
 
 --
 -- AUTO_INCREMENT for table `rqewn_fields`
@@ -9141,25 +9411,25 @@ ALTER TABLE `rqewn_finder_filters`
 -- AUTO_INCREMENT for table `rqewn_finder_links`
 --
 ALTER TABLE `rqewn_finder_links`
-  MODIFY `link_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `link_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `rqewn_finder_taxonomy`
 --
 ALTER TABLE `rqewn_finder_taxonomy`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `rqewn_finder_terms`
 --
 ALTER TABLE `rqewn_finder_terms`
-  MODIFY `term_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `term_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=70;
 
 --
 -- AUTO_INCREMENT for table `rqewn_finder_types`
 --
 ALTER TABLE `rqewn_finder_types`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `rqewn_languages`
@@ -9237,13 +9507,13 @@ ALTER TABLE `rqewn_ucm_content`
 -- AUTO_INCREMENT for table `rqewn_ucm_history`
 --
 ALTER TABLE `rqewn_ucm_history`
-  MODIFY `version_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `version_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `rqewn_updates`
 --
 ALTER TABLE `rqewn_updates`
-  MODIFY `update_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `update_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `rqewn_update_sites`
@@ -9465,7 +9735,7 @@ ALTER TABLE `rqewn_virtuemart_paymentmethods`
 -- AUTO_INCREMENT for table `rqewn_virtuemart_paymentmethod_shoppergroups`
 --
 ALTER TABLE `rqewn_virtuemart_paymentmethod_shoppergroups`
-  MODIFY `id` int(1) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(1) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `rqewn_virtuemart_payment_plg_paypal`
@@ -9537,7 +9807,7 @@ ALTER TABLE `rqewn_virtuemart_rating_votes`
 -- AUTO_INCREMENT for table `rqewn_virtuemart_shipmentmethods`
 --
 ALTER TABLE `rqewn_virtuemart_shipmentmethods`
-  MODIFY `virtuemart_shipmentmethod_id` int(1) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `virtuemart_shipmentmethod_id` int(1) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `rqewn_virtuemart_shipmentmethod_shoppergroups`

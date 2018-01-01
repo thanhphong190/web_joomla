@@ -234,7 +234,6 @@ require __DIR__ . '/jsstrings.php';
 					</footer><!-- end footer -->
 				</div>
 			<?php } ?>
-		</div>
-		<script lang="javascript">(function() {var pname = ( (document.title !='')? document.title : ((document.querySelector('h1') != null)? document.querySelector('h1').innerHTML : '') );var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async=1; ga.src = '//live.vnpgroup.net/js/web_client_box.php?hash=d4566bd8431548136b77643de8ce185c&data=eyJzc29faWQiOjUyNDY5MzEsImhhc2giOiJmYmI5YjZkYzAxYjQ0MjgxNzU1NGNlZDdiODU1ZWU2ZCJ9&pname='+pname;var s = document.getElementsByTagName('script');s[0].parentNode.insertBefore(ga, s[0]);})();</script>	
+		</div>	
 	</body>
 </html>
